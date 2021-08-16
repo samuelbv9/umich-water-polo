@@ -1,0 +1,774 @@
+{
+  "2019": {
+    "photo": "team2019.jpg",
+    "people": [
+      {
+        "isCaptian": false,
+        "name": "Matthew Ferrari",
+        "hometown": "Fairfax, VA",
+        "bio": "FR, Computer Science and Industrial Engineering",
+        "headshot": "teamRari2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Zach Burns",
+        "hometown": "Rockford, MI",
+        "bio": "FR, Philosophy, Political Science, and Economics",
+        "headshot": "teamBurns2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Baylor Wiggins",
+        "hometown": "Ashland, OR",
+        "bio": "FR, Biology",
+        "headshot": "teamBaylor2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Thor Clarke",
+        "hometown": "Ann Arbor, MI",
+        "bio": "FR, Engineering",
+        "headshot": "teamThor2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Alex Attisha",
+        "hometown": "San Diego, CA",
+        "bio": "SO, Interdisciplinary Physics and Economics",
+        "headshot": "teamAttisha2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Andrew Golin",
+        "hometown": "Dexter, MI",
+        "bio": "SO, Biomedical Engineering",
+        "headshot": "teamDrew2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Federico Benazzo",
+        "hometown": "Pavia, Italy",
+        "headshot": "nopicture.svg",
+        "bio": "SO, Aerospace Engineering"
+      },
+      {
+        "isCaptian": false,
+        "name": "Arya Kale",
+        "hometown": "Okemos, MI",
+        "bio": "SO, Biomolecular Science and Spanish",
+        "headshot": "teamArya2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Dan Rusca",
+        "hometown": "Chicago, IL",
+        "bio": "SO, Computer Science",
+        "headshot": "teamRusca2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Maverick Becker",
+        "hometown": "La Jolla, CA",
+        "bio": "SO, Economics",
+        "headshot": "teamMav2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Cameron Serr",
+        "hometown": "Ann Arbor, MI",
+        "bio": "SO, Computer Science",
+        "headshot": "teamCam2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Brendan Chang",
+        "hometown": "Gkenview, IL",
+        "bio": "SO, Computer Science",
+        "headshot": "teamBChang2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Adam Schnepf",
+        "hometown": "Okemos, MI",
+        "bio": "SO, Undecided",
+        "headshot": "teamAdam2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Diego Sanchez-Burks",
+        "hometown": "Ann Arbor, MI",
+        "bio": "SO, Undecided",
+        "headshot": "teamDiego2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Chris Lobdell",
+        "hometown": "Portola Valley, CA",
+        "bio": "SO, Undecided",
+        "headshot": "teamLobdell2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Alex Kaipainen",
+        "hometown": "Ann Arbor, MI",
+        "bio": "SO, Computer Science and Physics",
+        "headshot": "teamKiapi2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Sid Murthy",
+        "hometown": "Okemos, MI",
+        "bio": "Sophomore studing Computer Science and Math",
+        "headshot": "teamSid2019.jpg"
+      },
+      {
+        "isCaptian": true,
+        "name": "Matt McCormack",
+        "hometown": "Ann Arbor, MI",
+        "bio": "JR, Psychology",
+        "headshot": "teamMattJohn2019.jpg"
+      },
+      {
+        "isCaptian": true,
+        "name": "Nolan Vaughn",
+        "hometown": "Naperville, IL",
+        "bio": "JR, Computer Science",
+        "headshot": "teamNolan2019.jpg"
+      },
+      {
+        "isCaptian": true,
+        "name": "Daniel Zacks",
+        "hometown": "Ann Arbor, MI",
+        "bio": "JR, Computer Science",
+        "headshot": "teamDZ2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Aaron Crane",
+        "hometown": "Ann Arbor, MI",
+        "bio": "JR, Biology",
+        "headshot": "teamCrane2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Cade Bosch",
+        "hometown": "Los Angeles, CA",
+        "bio": "JR, Economics",
+        "headshot": "teamCade2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Stefan Kassem",
+        "hometown": "Princeton, NJ",
+        "bio": "JR, Economics",
+        "headshot": "teamStef2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Zach Gusho",
+        "hometown": "Birmingham, MI",
+        "bio": "JR, Computer Science",
+        "headshot": "teamGusho2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Scott Fordham",
+        "hometown": "Los Angeles, CA",
+        "bio": "JR, Ecology",
+        "headshot": "teamScott2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Court Middleton",
+        "hometown": "Ann Arbor, MI",
+        "bio": "JR, Computer Science",
+        "headshot": "teamCourt2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Mason Devarti",
+        "hometown": "Ann Arbor, MI",
+        "bio": "SR, Economics",
+        "headshot": "teamMason2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Zach Gan",
+        "hometown": "Kensington, MD",
+        "bio": "SR, Spanish and Political Science",
+        "headshot": "teamGan2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Chris Segar",
+        "hometown": "Cincinnati, OH",
+        "bio": "SR, Math and Economics",
+        "headshot": "teamSegar2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Justin Poliner",
+        "hometown": "Ann Arbor, MI",
+        "bio": "SR, Buisness",
+        "headshot": "teamPoliner2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "David Kamper",
+        "hometown": "Duluth, MN",
+        "bio": "SR, Neuroscience, Philosophy, Cognitive Science, and Trombone Performance",
+        "headshot": "teamKamper2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Matt Reiser",
+        "hometown": "Napa, CA",
+        "bio": "GS, Law",
+        "headshot": "teamReiser2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Ilya Kovalenko",
+        "hometown": "Martinez, GA",
+        "bio": "GS, Mechanical Engineering",
+        "headshot": "teamIlya2019.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Davis Argersinger",
+        "headshot": "nopicture.svg",
+        "hometown": "Ann Arbor, MI",
+        "bio": "GS, medicine"
+      }
+    ]
+  },
+  "2018": {
+    "photo": "team2018.jpg",
+    "people": [
+      {
+        "isCaptian": false,
+        "name": "Maverick Becker",
+        "hometown": "La Jolla, CA",
+        "bio": "FR, Economics",
+        "headshot": "teamMav2018.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Federico Benazzo",
+        "hometown": "Pavia, Italy",
+        "bio": "FR, Aerospace Engineering",
+        "headshot": "teamFed2018.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Andrew Golin",
+        "hometown": "Dexter, MI",
+        "bio": "FR, Biomedical Engineering",
+        "headshot": "teamDrew2018.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Arya Kale",
+        "hometown": "Okemos, MI",
+        "bio": "FR, Biomolecular Science and Spanish",
+        "headshot": "teamArya2018.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Sid Murthy",
+        "hometown": "Okemos, MI",
+        "bio": "Freshman studing Computer Science and Math",
+        "headshot": "teamSid2018.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Alex Kaipainen",
+        "hometown": "Ann Arbor, MI",
+        "bio": "FR, Computer Science and Physics",
+        "headshot": "teamKiapi2018.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Adam Schnepf",
+        "hometown": "Okemos, MI",
+        "bio": "FR, Undecided",
+        "headshot": "teamAdam2018.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Chris Lobdell",
+        "hometown": "Portola Valley, CA",
+        "bio": "FR, Undecided",
+        "headshot": "teamLobdell2018.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Dan Rusca",
+        "hometown": "Chicago, IL",
+        "bio": "FR, Computer Science",
+        "headshot": "teamRusca2018.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Brendan Chang",
+        "hometown": "Gkenview, IL",
+        "bio": "FR, Computer Science",
+        "headshot": "teamBChang2018.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Cameron Serr",
+        "hometown": "Ann Arbor, MI",
+        "bio": "FR, Computer Science",
+        "headshot": "teamCam2018.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Scott Fordham",
+        "hometown": "Los Angeles, CA",
+        "bio": "SO, Ecology",
+        "headshot": "teamScott2018.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Matt McCormack",
+        "hometown": "Ann Arbor, MI",
+        "bio": "SO, Psychology",
+        "headshot": "teamMattJohn2018.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Stefan Kassem",
+        "hometown": "Princeton, NJ",
+        "bio": "SO, Economics",
+        "headshot": "teamStef2018.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Daniel Zacks",
+        "hometown": "Ann Arbor, MI",
+        "bio": "SO, Computer Science",
+        "headshot": "teamDZ2018.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Court Middleton",
+        "hometown": "Ann Arbor, MI",
+        "bio": "SO, Computer Science",
+        "headshot": "teamCourt2018.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Nolan Vaughn",
+        "hometown": "Naperville, IL",
+        "bio": "SO, Computer Science",
+        "headshot": "teamNolan2018.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Mason Devarti",
+        "hometown": "Ann Arbor, MI",
+        "bio": "JR, Economics",
+        "headshot": "teamMason2018.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Justin Poliner",
+        "hometown": "Ann Arbor, MI",
+        "bio": "JR, Buisness",
+        "headshot": "teamPoliner2018.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Zach Gan",
+        "hometown": "Kensington, MD",
+        "bio": "JR, Spanish and Political Science",
+        "headshot": "teamGan2018.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Chris Seger",
+        "hometown": "Cincinnati, OH",
+        "bio": "JR, Math and Economics",
+        "headshot": "teamSegar2018.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Seth Wisotsky"
+      },
+      {
+        "isCaptian": false,
+        "name": "Matt Reiser",
+        "hometown": "Napa, CA",
+        "bio": "Senior student studying Law",
+        "headshot": "teamReiser2018.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Ilya Kovalenko",
+        "headshot": "teamIlya2018.jpg",
+        "hometown": "Martinez, GA",
+        "bio": "SR, Mechanical Engineering"
+      },
+      {
+        "isCaptian": true,
+        "name": "Tom McLeod"
+      },
+      {
+        "isCaptian": true,
+        "name": "Miles Harber"
+      },
+      {
+        "isCaptian": true,
+        "name": "David Newberger"
+      },
+      {
+        "isCaptian": false,
+        "name": "Charles Schertzing"
+      }
+    ]
+  },
+  "2017": {
+    "photo": "team2017.jpg",
+    "people": [
+      {
+        "isCaptian": false,
+        "name": "Scott Fordham",
+        "hometown": "Los Angeles, CA",
+        "bio": "FR, Ecology",
+        "headshot": "teamScott2017.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Nolan Vaughn",
+        "hometown": "Naperville, IL",
+        "bio": "FR, Computer Science",
+        "headshot": "teamNolan2017.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Matt McCormack",
+        "hometown": "Ann Arbor, MI",
+        "bio": "FR, Psychology",
+        "headshot": "teamMattJohn2017.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Stefan Kassem",
+        "hometown": "Princeton, NJ",
+        "bio": "FR, Economics",
+        "headshot": "teamStef2017.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Dan Zacks",
+        "hometown": "Ann Arbor, MI",
+        "bio": "FR, Computer Science",
+        "headshot": "teamDZ2017.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Zach Gan",
+        "hometown": "Kensington, MD",
+        "bio": "SO, Spanish and Political Science",
+        "headshot": "teamGan2017.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Chris Segar",
+        "hometown": "Cincinnati, OH",
+        "bio": "SO, Math and Economics",
+        "headshot": "teamSegar2017.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Justin Poliner",
+        "hometown": "Ann Arbor, MI",
+        "bio": "JR, Buisness",
+        "headshot": "teamPoliner2017.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Matt Reiser",
+        "hometown": "Napa, CA",
+        "bio": "JR, Law",
+        "headshot": "teamReiser2017.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Ilya Kovalenko",
+        "hometown": "Martinez, GA",
+        "bio": "JR, Mechanical Engineering",
+        "headshot": "teamIlya2017.jpg"
+      },
+      {
+        "isCaptian": true,
+        "name": "Alexander Weiss"
+      },
+      {
+        "isCaptian": true,
+        "name": "Connor Hallman"
+      },
+      {
+        "isCaptian": true,
+        "name": "David Newberger"
+      },
+      {
+        "isCaptian": false,
+        "name": "Daniel Wu"
+      },
+      {
+        "isCaptian": false,
+        "name": "Nick Yoo"
+      }
+    ]
+  },
+  "2016": {
+    "photo": "team2016.jpg",
+    "people": [
+      {
+        "isCaptian": false,
+        "name": "Zach Gan",
+        "hometown": "Kensington, MD",
+        "bio": "FR, Spanish and Political Science",
+        "headshot": "teamGan2016.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Chris Segar",
+        "hometown": "Cincinnati, OH",
+        "bio": "FR, Math and Economics",
+        "headshot": "teamSegar2016.jpg"
+      },
+      {
+        "name": "Ilya Kovalenko",
+        "isCaptian": false,
+        "hometown": "Martinez, GA",
+        "bio": "SO, Mechanical Engineering",
+        "headshot": "teamIlya2016.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Justin Poliner",
+        "hometown": "Ann Arbor, MI",
+        "bio": "SO, Buisness",
+        "headshot": "teamPoliner2016.jpg"
+      },
+      {
+        "isCaptian": true,
+        "name": "Davis Argersinger"
+      },
+      {
+        "isCaptian": true,
+        "name": "Dennis Dahlmann"
+      },
+      {
+        "isCaptian": true,
+        "name": "Ryan Scannell"
+      },
+      {
+        "isCaptian": false,
+        "name": "Jakob Kiel-Locey"
+      },
+      {
+        "isCaptian": false,
+        "name": "Tom Mcleod"
+      },
+      {
+        "isCaptian": false,
+        "name": "Michael Garcia"
+      },
+      {
+        "isCaptian": false,
+        "name": "Jesus Juarez"
+      },
+      {
+        "isCaptian": false,
+        "name": "Daniel Wu"
+      },
+      {
+        "isCaptian": false,
+        "name": "David Newberger"
+      },
+      {
+        "isCaptian": false,
+        "name": "Charles Schertzing"
+      }
+    ]
+  },
+  "2015": {
+    "photo": "team2015.jpg",
+    "people": [
+      {
+        "name": "Ilya Kovalenko",
+        "isCaptian": false,
+        "hometown": "Martinez, GA",
+        "bio": "FR, Mechanical Engineering",
+        "headshot": "teamIlya2015.jpg"
+      },
+      {
+        "isCaptian": false,
+        "name": "Justin Poliner",
+        "hometown": "Ann Arbor, MI",
+        "bio": "FR, Buisness",
+        "headshot": "teamPoliner2015.jpg"
+      },
+      {
+        "isCaptian": true,
+        "name": "Davis Argersinger"
+      },
+      {
+        "isCaptian": true,
+        "name": "Nick Naruns"
+      },
+      {
+        "isCaptian": true,
+        "name": "Ryan Scannell"
+      },
+      {
+        "isCaptian": false,
+        "name": "Tom Mcleod"
+      },
+      {
+        "isCaptian": false,
+        "name": "Andrew Hausman"
+      },
+      {
+        "isCaptian": false,
+        "name": "Dennis Dahlmann"
+      },
+      {
+        "isCaptian": false,
+        "name": "Michael Garcia"
+      },
+      {
+        "isCaptian": false,
+        "name": "Seiji Osawa"
+      },
+      {
+        "isCaptian": false,
+        "name": "Daniel Wu"
+      },
+      {
+        "isCaptian": false,
+        "name": "David Newberger"
+      },
+      {
+        "isCaptian": false,
+        "name": "Nick Yoo"
+      }
+    ]
+  },
+  "2014": {
+    "people": [
+      {
+        "isCaptian": true,
+        "name": "Daniel Wu"
+      },
+      {
+        "isCaptian": true,
+        "name": "Davis Argersinger"
+      },
+      {
+        "isCaptian": true,
+        "name": "Ryan Scannell"
+      },
+      {
+        "isCaptian": true,
+        "name": "Seiji Osawa"
+      }
+    ]
+  },
+  "2013": {
+    "people": [
+      {
+        "isCaptian": true,
+        "name": "Seiji Osawa"
+      },
+      {
+        "isCaptian": true,
+        "name": "Grant Cole"
+      },
+      {
+        "isCaptian": true,
+        "name": "Chris Takahashi"
+      },
+      {
+        "isCaptian": true,
+        "name": "Nick Naruns"
+      }
+    ]
+  },
+  "2012": {
+    "people": [
+      {
+        "isCaptian": true,
+        "name": "Seiji Osawa"
+      },
+      {
+        "isCaptian": true,
+        "name": "Nick Naruns"
+      },
+      {
+        "isCaptian": true,
+        "name": "Chris Takahashi"
+      }
+    ]
+  },
+  "2011": {
+    "people": [
+      {
+        "isCaptian": true,
+        "name": "Chris Takahashi"
+      },
+      {
+        "isCaptian": true,
+        "name": "Peter DeJonge"
+      },
+      {
+        "isCaptian": true,
+        "name": "Ben Hubbard"
+      },
+      {
+        "isCaptian": true,
+        "name": "Matt Woelfel"
+      }
+    ]
+  },
+  "2010": {
+    "people": [
+      {
+        "isCaptian": true,
+        "name": "Nick Mansfield"
+      },
+      {
+        "isCaptian": true,
+        "name": "Sam Hoekstra"
+      },
+      {
+        "isCaptian": true,
+        "name": "Levi Barry"
+      },
+      {
+        "isCaptian": true,
+        "name": "Matt Woelfel"
+      }
+    ]
+  },
+  "2009": {
+    "people": [
+      {
+        "isCaptian": true,
+        "name": "Ryan Pryor"
+      },
+      {
+        "isCaptian": true,
+        "name": "Matt Woelfel"
+      },
+      {
+        "isCaptian": true,
+        "name": "Nick Mansfield"
+      }
+    ]
+  }
+}

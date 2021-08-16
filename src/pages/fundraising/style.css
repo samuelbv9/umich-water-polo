@@ -1,0 +1,19 @@
+.fundraisingHeadshot {
+    height: 6rem;
+    margin-top: .5rem;
+    border-radius: 100%;
+}
+
+.fundraisingBody {
+    margin: 1rem 2rem;
+}
+
+.fundraisingPostContainer {
+    margin-top: 1rem;
+}
+
+@media (max-width:900px) {
+    .fundraisingBody {
+        margin: 1rem;
+    }
+}
