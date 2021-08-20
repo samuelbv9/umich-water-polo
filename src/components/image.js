@@ -1,5 +1,5 @@
 import { useState } from "react"
-import Spinner from "../spinner"
+import Spinner from "./spinner"
 
 export default function Image({ src, containerStyle, alt, className }) {
     const [isLoaded, setIsLoaded] = useState(false)
@@ -9,9 +9,9 @@ export default function Image({ src, containerStyle, alt, className }) {
         opacity: isLoaded ? 1 : 0,
         filterBrightness: isLoaded ? 100 : 0,
         filterSaturate: isLoaded ? 100 : 20,
-        transition: `filterBrightness ${1500 * 0.75}ms cubic-bezier(0.4, 0.0, 0.2, 1),
-            filterSaturate ${1500}ms cubic-bezier(0.4, 0.0, 0.2, 1),
-            opacity ${1500 / 2}ms cubic-bezier(0.4, 0.0, 0.2, 1)`,
+        transition: `filterBrightness ${500 * 0.75}ms cubic-bezier(0.4, 0.0, 0.2, 1),
+            filterSaturate ${500}ms cubic-bezier(0.4, 0.0, 0.2, 1),
+            opacity ${500 / 2}ms cubic-bezier(0.4, 0.0, 0.2, 1)`,
     }
 
     const loaderContainerStyle = {
