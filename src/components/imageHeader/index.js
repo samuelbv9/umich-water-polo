@@ -1,11 +1,6 @@
 import Image from "../image"
+import "./style.css"
 
-export default function introImage({ imagePath }) {
-    return (
-            <div>
-                {imagePath && <div className="imageContainer">
-                    <Image alt="welcome" width="100%" height="30vw" src={imagePath} />
-                </div>}
-            </div>
-    )
+export default function ImageHeader({ src }) {
+    return <Image src = {src} alt = "section header" className = "imageHeader"/>
 }

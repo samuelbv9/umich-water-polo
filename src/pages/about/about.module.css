@@ -38,6 +38,11 @@
     font-size: 1.3rem;
 }
 
+.executiveHeadshot {
+    width: 5rem;
+    height: 7rem;
+}
+
 @media (max-width:900px) {
     .aboutContainer {
         margin: 1rem;

@@ -8,12 +8,12 @@ import Image from '../../components/image'
 import parse from 'html-react-parser'
 import { ErrorBoundary, useErrorHandler } from "react-error-boundary"
 import ErrorFallback, { logger } from "../../components/error"
-import './style.css';
+import styles from './about.module.css';
 
 export default function About() {
 	return (
-		<div className="aboutContainer">
-			<ImageIntro imagePath={`${process.env.PUBLIC_URL}/bannerPhotos/bigtenchamps2017.jpg`} />
+		<div className={styles.aboutContainer}>
+			<ImageIntro src={`${process.env.PUBLIC_URL}/bannerPhotos/bigtenchamps2017.jpg`} />
 			<AboutBody />
 		</div>
 	)
@@ -72,9 +72,9 @@ const EBoardContainer = ({ eboard }) => {
 	return (
 		eboard.map((post, index) => {
 			return (
-				<div key={index} className={`eboardContainer${(index % 2) ? " odd" : ""}`}>
+				<div key={index} className={`${styles.eboardContainer} ${index % 2 ? styles.odd : ""}`}>
 					<ErrorBoundary fallback={<div>Error</div>} onError={logger}>
-						<div className="executiveRole">{post.role}</div>
+						<div className={styles.executiveRole}>{post.role}</div>
 						<EBoardPeople people={post.people} />
 					</ErrorBoundary>
 				</div>
@@ -86,7 +86,7 @@ const EBoardContainer = ({ eboard }) => {
 
 function EBoardPeople({ people }) {
 	return (
-		<div className="executiveContainer">
+		<div className={styles.executiveContainer}>
 			{
 				people.map((item, index) => {
 					return (
@@ -102,9 +102,9 @@ function EBoardPeople({ people }) {
 
 const EBoardPerson = ({ details }) => {
 	return (
-		<div className="executiveInfo">
-			{details.headshot && <Image alt="headshot" className="executiveHeadshot" width="5rem" height="7rem" src={`${process.env.PUBLIC_URL}/executiveHeadshots/${details.headshot}`} />}
-			<div className="executiveName">{details.name}</div>
+		<div className={styles.executiveInfo}>
+			{details.headshot && <Image alt="headshot" className={styles.executiveHeadshot} src={`${process.env.PUBLIC_URL}/executiveHeadshots/${details.headshot}`} />}
+			<div className={styles.executiveName}>{details.name}</div>
 		</div>
 	)
 }

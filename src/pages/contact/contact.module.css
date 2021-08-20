@@ -27,7 +27,7 @@
 }
 
 
-.circle-loader {
+.circleLoader {
     margin-bottom: 7em/2;
     border: 2px solid rgba(0, 0, 0, 0.2);
     border-left-color: #5cb85c;
@@ -40,7 +40,7 @@
     height: 7em;
 }
 
-.load-complete {
+.loadComplete {
     -webkit-animation: none;
     animation: none;
     border-color: #5cb85c;

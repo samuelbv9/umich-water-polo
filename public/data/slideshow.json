@@ -1,5 +1,5 @@
 {
-    "desktop": [
+    "landscape": [
         "shooter2.jpg",
         "faceShot.jpg",
         "sidSave.jpg",
@@ -8,7 +8,7 @@
         "nolanShot.jpg",
         "daBoys.jpg"
     ],
-    "mobile": [
+    "portrait": [
         "chrisMobile.jpg",
         "shotMobile.jpg",
         "blockMobile.jpg",

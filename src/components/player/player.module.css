@@ -25,9 +25,7 @@
 }
 
 .playerHeadshot {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 5.3rem;
     height: 6rem;
 }
 

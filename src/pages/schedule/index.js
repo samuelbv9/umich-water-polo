@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import Game from "../../components/game";
 import axios from "axios"
 import Loading from "../../components/loading";
-import "./style.css";
 import Autocomplete from "@material-ui/lab/Autocomplete";
 import TextField from '@material-ui/core/TextField';
 import useQuery from "../../components/useQuery";
@@ -10,6 +9,7 @@ import CountUp from "../../components/countUp"
 import { ErrorBoundary, useErrorHandler } from "react-error-boundary"
 import SectionBanner from "../../components/sectionBanner"
 import ErrorFallback, { logger } from "../../components/error"
+import styles from "./schedule.module.css";
 
 export default function Schedule() {
 
@@ -54,13 +54,13 @@ export default function Schedule() {
 		return <Loading />
 	}
 	else return (
-		<div className="scheduleBody">
-			<h2 className="seasonTitle">{selectedYear} Season</h2>
-			<div className="seasonBanner">
+		<div className={styles.scheduleBody}>
+			<h2 className={styles.seasonTitle}>{selectedYear} Season</h2>
+			<div className={styles.seasonBanner}>
 				<ErrorBoundary FallbackComponent={ErrorFallback} onError={logger}>
 					<SeasonStats selectedYear={selectedYear} schedule={schedule} />
 				</ErrorBoundary>
-				<div className="scheduleYear">
+				<div className={styles.scheduleYear}>
 					<Autocomplete
 						value={selectedYear}
 						disableClearable
@@ -147,12 +147,12 @@ const SeasonStats = ({ selectedYear, schedule }) => {
 	}, [selectedYear])
 
 	return (
-		<div className="seasonStatsContainer">
-			<div className="seasonStatsItem">
+		<div className={styles.seasonStatsContainer}>
+			<div className={styles.seasonStatsItem}>
 				<div><b><CountUp updateKey={yearStats.wins} to={yearStats.wins} duration={1} /></b></div>
 				WINS
 			</div>
-			<div className="seasonStatsItem">
+			<div className={styles.seasonStatsItem}>
 				<div><b><CountUp updateKey={yearStats.losses} to={yearStats.losses} duration={1} /></b></div>
 				LOSSES
 			</div>
@@ -195,13 +195,13 @@ const Awards = ({ awards, selectedYear }) => {
 
 const TournBanner = ({ name, location, directions, dates, host }) => {
 	return (
-		<div className="bannerHolder">
-			<div className="tournamentName"><b>{name}</b></div>
-			<div className="bannerRow">
+		<div className={styles.bannerHolder}>
+			<div className={styles.tournamentName}><b>{name}</b></div>
+			<div className={styles.bannerRow}>
 				<div>{dates}</div>
 				<div>@ {host}</div>
-				<div className="tournamentLocation" onClick={() => window.open(directions, "_blank")}>
-					<img className="hubIcon" alt="hub icon" src={`${process.env.PUBLIC_URL}/icons/map.png`} />
+				<div className={styles.tournamentLocation} onClick={() => window.open(directions, "_blank")}>
+					<img className={styles.hubIcon} alt="hub icon" src={`${process.env.PUBLIC_URL}/icons/map.png`} />
 					{location}
 				</div>
 			</div>
@@ -211,9 +211,9 @@ const TournBanner = ({ name, location, directions, dates, host }) => {
 
 const AwardPannel = ({ children, title, isOddIndex }) => {
 	return (
-		<div className={`awardBackground${isOddIndex ? " odd" : ""}`}>
+		<div className={`${styles.awardBackground} ${isOddIndex ? styles.odd : ""}`}>
 			<div>{title}</div>
-			<div className="peopleHolder">
+			<div className={styles.peopleHolder}>
 				<div>{children}</div>
 			</div>
 		</div>

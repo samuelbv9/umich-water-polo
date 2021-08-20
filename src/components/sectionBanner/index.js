@@ -1,8 +1,8 @@
-import "./style.css";
+import styles from "./sectionBanner.module.css";
 
 export default function Sub ({ children }){
 	return (
-		<div className="sectionBanner">
+		<div className={styles.sectionBanner}>
 			{children}
 		</div>
 	);

@@ -18,14 +18,13 @@ import Button from "@material-ui/core/Button"
 import { Link } from "react-router-dom"
 import { ErrorBoundary, useErrorHandler } from "react-error-boundary"
 import ErrorFallback, { logger } from "../../components/error"
-import "./style.css"
+import styles from "./contact.module.css"
 
 
 export default function ContactUs() {
 	return (
-		<div className="contactBody" >
-
-			<ImageIntro imagePath={`${process.env.PUBLIC_URL}/bannerPhotos/banquet.jpg`} />
+		<div className={styles.contactBody} >
+			<ImageIntro src={`${process.env.PUBLIC_URL}/bannerPhotos/banquet.jpg`} />
 			<ErrorBoundary FallbackComponent={ErrorFallback} onError={logger}>
 				<Form />
 			</ErrorBoundary>
@@ -98,7 +97,7 @@ const Form = () => {
 			{!confirm &&
 				<ErrorBoundary FallbackComponent={ErrorFallback} onError={logger}>
 					<form style={{ display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", marginBottom: "1rem" }}>
-						<div className="formHolder">
+						<div className={styles.formHolder}>
 							<NameInput {...createHandler("name")} shouldShowError={shouldShowError} />
 							<EmailInput {...createHandler("email")} shouldShowError={shouldShowError} />
 
@@ -108,7 +107,7 @@ const Form = () => {
 
 						{
 							formType.value === 0 && <>
-								<Typography className="athleteReqNote">NOTE: The ability to swim 500 yards unassisted is a prerequisite skill to join the team as a player</Typography>
+								<Typography className={styles.athleteReqNote}>NOTE: The ability to swim 500 yards unassisted is a prerequisite skill to join the team as a player</Typography>
 								<AthleteForm createHandler={createHandler} shouldShowError={shouldShowError} />
 							</>
 						}
@@ -125,8 +124,8 @@ const Form = () => {
 
 			{!!confirm && <div style={{ display: "flex", alignItems: 'center', justifyContent: "center", flexDirection: "column", height: "100%" }}>
 				<Typography style={{ marginTop: "1rem" }} variant="h5">{confirm === 1 ? "Submitting..." : confirm === 2 ? "Successfully Submitted" : "Submission Failed"}</Typography>
-				{confirm !== 3 && <div style={{ margin: "1rem 0" }} className={`circle-loader${confirm === 2 ? " load-complete" : ""}`}>
-					<div className="checkmark draw" style={confirm === 2 ? undefined : { display: "none" }} />
+				{confirm !== 3 && <div style={{ margin: "1rem 0" }} className={`${styles.circleLoader} ${confirm === 2 ? styles.loadComplete : ""}`}>
+					<div className={`${styles.checkmark} ${styles.draw}`} style={confirm === 2 ? undefined : { display: "none" }} />
 				</div>}
 				{
 					confirm === 3 && <svg style={{ color: "red", margin: "1rem" }} xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" viewBox="0 0 16 16">
@@ -461,7 +460,7 @@ const AdditionalInfo = ({ saveValue, setIsValid, storeValue }) => {
 
 const AthleteForm = ({ createHandler, shouldShowError }) => {
 	return (
-		<div className="formHolder athlete">
+		<div className={`${styles.formHolder} ${styles.athlete}`}>
 			<HometownCityInput {...createHandler("hometownCity")} />
 			<HometownStateInput {...createHandler("hometownState")} />
 			<GradDateInput {...createHandler("gradDate")} shouldShowError={shouldShowError} />

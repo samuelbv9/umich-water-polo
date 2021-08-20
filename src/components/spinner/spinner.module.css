@@ -1,4 +1,7 @@
-@keyframes spinners-react-circular {
+.spinner {
+	animation-name: spinner;
+}
+@keyframes spinner {
 	0% {
 		stroke-dashoffset: 306;
 	}

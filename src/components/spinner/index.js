@@ -1,4 +1,4 @@
-import './style.css';
+import styles from './spinner.module.css';
 
 const defaultProps = {
     color: '#38ad48',
@@ -51,10 +51,6 @@ const Component = ({
     ...svgProps
 }) => {
     const strokeWidth = 4 * (thickness / 100);
-    const circleStyle = !still
-        ? { animation: `spinners-react-circular ${140 / speed}s linear infinite` }
-        : {};
-
     return (
         <svg fill="none" {...svgProps} viewBox="0 0 66 66">
             <defs>
@@ -81,7 +77,8 @@ const Component = ({
                 strokeDashoffset="306"
                 strokeLinecap="round"
                 strokeWidth={strokeWidth}
-                style={circleStyle}
+                className={styles.spinner}
+                style={{animationTimingFunction:"linear", animationIterationCount:"infinite", animationDuration: `${140 / speed}s`}}
             />
         </svg>
     );

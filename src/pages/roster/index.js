@@ -8,7 +8,7 @@ import TextField from "@material-ui/core/TextField";
 import useQuery from "../../components/useQuery";
 import { ErrorBoundary, useErrorHandler } from "react-error-boundary"
 import ErrorFallback, { logger } from "../../components/error"
-import "./style.css"
+import styles from "./roster.module.css"
 
 export default function Roster() {
 
@@ -48,11 +48,11 @@ export default function Roster() {
 	if (loading) {
 		return <Loading />
 	} else return (
-		<div className="rosterBody">
+		<div className={styles.rosterBody}>
 			<ErrorBoundary FallbackComponent={ErrorFallback} onError={logger}>
 				<TeamPhoto roster={roster} selectedYear={selectedYear} />
 			</ErrorBoundary>
-			<div className="rosterYear">
+			<div className={styles.rosterYear}>
 				<Autocomplete
 					value={selectedYear}
 					disableClearable
@@ -71,7 +71,7 @@ export default function Roster() {
 }
 
 const TeamPhoto = ({ roster, selectedYear }) => {
-	return !!roster[selectedYear].photo && <ImageIntro imagePath={`${process.env.PUBLIC_URL}/rosterPhotos/${roster[selectedYear].photo}`} />
+	return !!roster[selectedYear].photo && <ImageIntro src={`${process.env.PUBLIC_URL}/rosterPhotos/${roster[selectedYear].photo}`} />
 }
 
 const Players = ({ roster, selectedYear }) => {

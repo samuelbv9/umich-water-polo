@@ -8,14 +8,14 @@ import Spinner from "../../components/spinner"
 import CountUp from "../../components/countUp"
 import { ErrorBoundary, useErrorHandler } from "react-error-boundary"
 import ErrorFallback, { logger } from "../../components/error"
-import "./style.css";
+import styles from "./home.module.css";
 import "react-alice-carousel/lib/alice-carousel.css";
 
 const AlumniNetwork = lazy(() => import('../../components/alumni'));
 
-const Loading = ({ style, isMobile }) => {
+const Loading = ({ style }) => {
 	return (
-		<div style={style} className={`carouselContainer slideshowContainer${isMobile ? " mobile" : ""}`}>
+		<div style={style} className={`${styles.carouselContainer} ${styles.slideshowContainer}`}>
 			<Spinner size={100} thickness={140} speed={150} />
 		</div>
 	)
@@ -23,17 +23,17 @@ const Loading = ({ style, isMobile }) => {
 
 export default function Home() {
 	return (
-		<div className="bodyContainer">
+		<div className={styles.bodyContainer}>
 			<ErrorBoundary FallbackComponent={ErrorFallback} onError={logger}>
 				<Carousel />
 			</ErrorBoundary>
-			<h2 className="quote">Hail to the victors.</h2>
-			<div className="championBanner">
+			<h2 className={styles.quote}>Hail to the victors.</h2>
+			<div className={styles.championBanner}>
 				<ErrorBoundary FallbackComponent={ErrorFallback} onError={logger}>
-					<Paper className="championBannerItem" elevation={3}><span><b><CountUp to={100} duration={2} />+</b></span>First Team All&#x2011;Americans</Paper>
-					<Paper className="championBannerItem" elevation={3}><span><b><CountUp to={3} duration={1} />x</b></span>National Champions</Paper>
-					<Paper className="championBannerItem" elevation={3}><span><b><CountUp to={14} duration={1} />x</b></span>Big Ten Champions</Paper>
-					<Paper className="championBannerItem" elevation={3}><span><b><CountUp to={100} duration={2} />+</b></span>Academic All&#x2011;Americans</Paper>
+					<Paper className={styles.championBannerItem} elevation={3}><span><b><CountUp to={100} duration={2} />+</b></span>First Team All&#x2011;Americans</Paper>
+					<Paper className={styles.championBannerItem} elevation={3}><span><b><CountUp to={3} duration={1} />x</b></span>National Champions</Paper>
+					<Paper className={styles.championBannerItem} elevation={3}><span><b><CountUp to={14} duration={1} />x</b></span>Big Ten Champions</Paper>
+					<Paper className={styles.championBannerItem} elevation={3}><span><b><CountUp to={100} duration={2} />+</b></span>Academic All&#x2011;Americans</Paper>
 				</ErrorBoundary>
 			</div>
 			<div style={{ marginTop: "4rem" }}>
@@ -42,8 +42,8 @@ export default function Home() {
 				</ErrorBoundary>
 			</div>
 			<div style={{ marginTop: "4rem" }}>
-				<h4 className="homeSubTitle">Alumni Network</h4>
-				<div className="alumniSubtitle">
+				<h4 className={styles.homeSubTitle}>Alumni Network</h4>
+				<div className={styles.alumniSubtitle}>
 					Our Alumni work all across the globe and provide the team with an invaluable networking resource.
 				</div>
 				<ErrorBoundary FallbackComponent={ErrorFallback} onError={logger}>
@@ -58,17 +58,17 @@ export default function Home() {
 }
 
 
-function useLayout() {
-	const [layout, setLayout] = useState("desktop");
+function useOrientation() {
+	const [orientation, setOrientation] = useState("landscape");
 	useEffect(() => {
-		function updateLayout() {
-			setLayout(window.innerWidth > window.innerHeight ? "desktop" : "mobile");
+		function updateOrientation() {
+			setOrientation(window.innerWidth > window.innerHeight ? "landscape" : "portrait");
 		}
-		window.addEventListener('resize', updateLayout);
-		updateLayout();
-		return () => window.removeEventListener('resize', updateLayout);
+		window.addEventListener('resize', updateOrientation);
+		updateOrientation();
+		return () => window.removeEventListener('resize', updateOrientation);
 	}, []);
-	return layout;
+	return orientation;
 }
 
 function Carousel() {
@@ -77,11 +77,11 @@ function Carousel() {
 	const [activePhoto, setActivePhoto] = useState(0)
 
 	const handleError = useErrorHandler()
-	const layout = useLayout()
+	const orientation = useOrientation()
 
 	const slideTo = (i) => setActivePhoto(i)
-	const slideNext = () => setActivePhoto(i => (i + 1) % photos[layout].length)
-	const slidePrev = () => setActivePhoto(i => (i - 1) % photos[layout].length)
+	const slideNext = () => setActivePhoto(i => (i + 1) % photos[orientation].length)
+	const slidePrev = () => setActivePhoto(i => (i - 1) % photos[orientation].length)
 
 	const getPhotos = async () => {
 		try {
@@ -101,56 +101,55 @@ function Carousel() {
 
 	if (loading) {
 		return (
-			<Loading isMobile={layout === "mobile"} />
+			<Loading />
 		)
-	} else if (photos[layout].length === 0) {
+	} else if (photos[orientation].length === 0) {
 		return <div />
 	} else return (
 		<>
-			<div className="carouselContainer">
+			<div className={styles.carouselContainer}>
 				<img
-					className="arrow"
+					className={styles.arrow}
 					onClick={() => slidePrev()}
 					alt="arrow"
 					src={`${process.env.PUBLIC_URL}/icons/left.svg`}
 				/>
 
-				<div className={`slideshowContainer${layout === "mobile" ? " mobile" : ""}`}>
-					<AliceCarousel
+				<div className={styles.slideshowContainer}>
+				<AliceCarousel
 						autoPlayInterval={5000}
-						autoPlay={true}
-						fadeOutAnimation={true}
-						stopAutoPlayOnHover={false}
-						buttonsDisabled={true}
-						dotsDisabled={true}
-						slideToIndex={activePhoto}
+						infinite
+						autoPlay
+						animationType="slide"
+						autoPlayStrategy="action"
+						disableButtonsControls
+						disableDotsControls
+						activeIndex={activePhoto}
 						onSlideChanged={e => slideTo(e.item)}
-					>
-						{photos[layout].map((link) => {
+						items={photos[orientation].map((link) => {
 							return (
 								<Image
 									key={link}
-									width="100%"
-									height={layout === "mobile" ? "105vw" : "30vw"}
 									src={`${process.env.PUBLIC_URL}/bannerPhotos/${link}`}
 									alt="slideshow"
-									className={`pictureSlides${layout === "mobile" ? " mobile" : ""}`}
+									className={styles.pictureSlides}
 								/>
 							)
 						})}
-					</AliceCarousel>
+					
+					/>
 				</div>
 				<img
-					className="arrow"
+					className={styles.arrow}
 					alt="arow"
 					onClick={() => slideNext()}
 					src={`${process.env.PUBLIC_URL}/icons/right.svg`}
 				/>
 			</div>
-			<div className="dotsHolder">
-				{(Array.from(Array(photos[layout].length))).map((_, value) => {
+			<div className={styles.dotsHolder}>
+				{(Array.from(Array(photos[orientation].length))).map((_, value) => {
 					return (
-						<div onClick={() => setActivePhoto(value)} key={value} className={`carouselDot${activePhoto === value ? " active" : ""}`} />
+						<div onClick={() => setActivePhoto(value)} key={value} className={`${styles.carouselDot} ${activePhoto === value ? styles.active : ""}`} />
 					)
 				})}
 			</div>
@@ -187,10 +186,10 @@ function Updates() {
 		)
 	} else return (
 		<>
-			<h4 className="homeSubTitle">Recent Updates</h4>
+			<h4 className={styles.homeSubTitle}>Recent Updates</h4>
 			{updates.map((post, index) => {
 				return (
-					<div className="homeUpdateContainer" key={index}>
+					<div className={styles.homeUpdateContainer} key={index}>
 						<Post
 							date={post.date}
 							title={post.title}

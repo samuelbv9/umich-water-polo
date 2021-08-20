@@ -29,22 +29,16 @@
     margin-bottom: 10px;
 }
 
-.slideshowContainer.mobile {
-    height: 105vw;
-    max-height: 500px;
-}
-
 .pictureSlides {
     width: 100%;
     height: 30vw;
 }
 
-.pictureSlides.mobile {
-    height: 105vw;
-    max-height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@media (orientation: portrait) {
+    .slideshowContainer, .pictureSlides {
+        height: 105vw;
+        max-height: 500px;
+    }
 }
 
 .dotsHolder {

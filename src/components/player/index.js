@@ -1,24 +1,24 @@
 import Image from "../image"
 import Divider from "@material-ui/core/Divider"
-import "./style.css";
+import styles from "./player.module.css";
 
 function Player({ isOddIndex, details }) {
 	const { isCaptian, hometown, bio, headshot, name } = details
 	return (
-		<div className={`playerContainer${isOddIndex ? " odd" : ""}`}>
-				{headshot && <Image width="5.3rem" height="6rem" alt="headshot" className="playerHeadshot" src={`${process.env.PUBLIC_URL}/rosterPhotos/${headshot}`} />}
+		<div className={`${styles.playerContainer} ${isOddIndex ? styles.odd : ""}`}>
+				{headshot && <Image alt="headshot" className={styles.playerHeadshot} src={`${process.env.PUBLIC_URL}/rosterPhotos/${headshot}`} />}
 
-				<div className="playerInfo">
-					<div className="playerInfoRow">
-						<div className="playerName">
+				<div className={styles.playerInfo}>
+					<div className={styles.playerInfoRow}>
+						<div className={styles.playerName}>
 							{name}
-							{isCaptian && <img className="captianMedal" alt="captian" src={`${process.env.PUBLIC_URL}/icons/captain.svg`} />}
+							{isCaptian && <img className={styles.captianMedal} alt="captian" src={`${process.env.PUBLIC_URL}/icons/captain.svg`} />}
 						</div>
-						<Divider variant="middle" className="mobilePlayerDivider" />
-						<div className="playerHometown"> {hometown}</div>
+						<Divider variant="middle" className={styles.mobilePlayerDivider} />
+						<div className={styles.playerHometown}> {hometown}</div>
 					</div>
 
-					<div className="playerBio">{bio}</div>
+					<div className={styles.playerBio}>{bio}</div>
 				</div>
 		</div>
 	)

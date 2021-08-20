@@ -6,13 +6,13 @@ import parse from 'html-react-parser'
 import Loading from '../../components/loading';
 import { ErrorBoundary, useErrorHandler } from "react-error-boundary"
 import ErrorFallback, { logger } from "../../components/error"
-import './style.css';
+import styles from './fundraising.module.css';
 
 
 export default function Fundraising() {
     return (
-        <div className="fundraisingBody">
-            <ImageIntro imagePath={`${process.env.PUBLIC_URL}/bannerPhotos/cheer.jpg`} />
+        <div className={styles.fundraisingBody}>
+            <ImageIntro src={`${process.env.PUBLIC_URL}/bannerPhotos/cheer.jpg`} />
             <ErrorBoundary FallbackComponent={ErrorFallback} onError={logger}>
                 <FundraisingBody />
             </ErrorBoundary>
@@ -46,10 +46,10 @@ const FundraisingBody = () => {
     }
     else return (
 
-        <div className="fundraisingPostContainer">
+        <div className={styles.fundraisingPostContainer}>
             <Post>
                 {parse(page.message)}
-                <img alt="headshot" className="fundraisingHeadshot" src={`${process.env.PUBLIC_URL}/executiveHeadshots/${page.image}`}></img>
+                <img alt="headshot" className={styles.fundraisingHeadshot} src={`${process.env.PUBLIC_URL}/executiveHeadshots/${page.image}`}></img>
                 <div>{page.name},</div>
                 <div>{page.position}</div>
             </Post>

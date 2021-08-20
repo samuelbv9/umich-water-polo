@@ -6,12 +6,12 @@ import Loading from '../../components/loading'
 import Post from "../../components/post"
 import { ErrorBoundary, useErrorHandler } from "react-error-boundary"
 import ErrorFallback, { logger } from "../../components/error"
-import "./style.css"
+import styles from "./news.module.css"
 
 export default function News() {
 	return (
-		<div className="newsBody">
-			<ImageIntro imagePath={`${process.env.PUBLIC_URL}/bannerPhotos/sam.jpg`} />
+		<div className={styles.newsBody}>
+			<ImageIntro src={`${process.env.PUBLIC_URL}/bannerPhotos/sam.jpg`} />
 			<ErrorBoundary FallbackComponent={ErrorFallback} onError={logger}>
 				<NewsInternals />
 			</ErrorBoundary>
@@ -45,7 +45,7 @@ const NewsInternals = () => {
 	} else return (
 		news.map((post, index) => {
 			return (
-				<div key={index} className="newsPostContainer">
+				<div key={index} className={styles.newsPostContainer}>
 					<ErrorBoundary fallback={<div>Error</div>} onError={logger}>
 						<Post date={post.date} title={post.title}>
 							{post.content}

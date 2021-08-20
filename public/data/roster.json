@@ -118,7 +118,7 @@
         "isCaptian": false,
         "name": "Sid Murthy",
         "hometown": "Okemos, MI",
-        "bio": "Sophomore studing Computer Science and Math",
+        "bio": "SO, Computer Science and Math",
         "headshot": "teamSid2019.jpg"
       },
       {
@@ -238,7 +238,7 @@
         "name": "Davis Argersinger",
         "headshot": "nopicture.svg",
         "hometown": "Ann Arbor, MI",
-        "bio": "GS, medicine"
+        "bio": "GS, Medicine"
       }
     ]
   },
@@ -277,7 +277,7 @@
         "isCaptian": false,
         "name": "Sid Murthy",
         "hometown": "Okemos, MI",
-        "bio": "Freshman studing Computer Science and Math",
+        "bio": "FR, Computer Science and Math",
         "headshot": "teamSid2018.jpg"
       },
       {
@@ -400,7 +400,7 @@
         "isCaptian": false,
         "name": "Matt Reiser",
         "hometown": "Napa, CA",
-        "bio": "Senior student studying Law",
+        "bio": "SR, Law",
         "headshot": "teamReiser2018.jpg"
       },
       {
