@@ -381,9 +381,6 @@ const YearsOfExperience = ({ saveValue, setIsValid, shouldShowError, storeValue 
 	const [state, setState] = useState(storeValue || "")
 
 	const handleChange = e => {
-		if (e.target.value[0] === '0' || e.target.value.length >= 3 || !(/^\d*$/.test(e.target.value))) {
-			return
-		}
 		setState(e.target.value)
 		saveValue(e.target.value)
 		setIsValid(!!e.target.value)
