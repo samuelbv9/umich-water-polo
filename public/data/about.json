@@ -5,8 +5,8 @@
             "role": "President",
             "people": [
                 {
-                    "name": "Andrew Golin",
-                    "headshot": "headshotDrew.jpg"
+                    "name": "Zach Burns",
+                    "headshot": "headshotBurns.jpg"
                 }
             ]
         },
@@ -14,8 +14,8 @@
             "role": "Vice President",
             "people": [
                 {
-                    "name": "Dan Rusca",
-                    "headshot": "headshotRusca.jpg"
+                    "name": "Drew Golin",
+                    "headshot": "headshotDrew.jpg"
                 }
             ]
         },
@@ -23,8 +23,8 @@
             "role": "Treasurer",
             "people": [
                 {
-                    "name": "Brendan Chang",
-                    "headshot": "headshotBChang.jpg"
+                    "name": "Jeffrey Brill",
+                    "headshot": "nopicture.svg"
                 }
             ]
         },
@@ -33,19 +33,15 @@
             "people": [
                 {
                     "name": "Chris Lobdell",
-                    "headshot": "nopicture.svg"
+                    "headshot": "headshotLobdell.jpg"
                 },
                 {
-                    "name": "Nolan Vaughn",
-                    "headshot": "headshotNolan.jpg"
+                    "name": "Maverick Becker",
+                    "headshot": "headshotMav.jpg"
                 },
                 {
                     "name": "Scott Fordham",
-                    "headshot": "nopicture.svg"
-                },
-                {
-                    "name": "Daniel Zacks",
-                    "headshot": "headshotDZ.jpg"
+                    "headshot": "headshotScott.jpg"
                 }
             ]
         },
@@ -77,24 +73,11 @@
             ]
         },
         {
-            "role": "Web Team",
-            "people": [
-                {
-                    "name": "Alex Kaipainen",
-                    "headshot": "nopicture.svg"
-                },
-                {
-                    "name": "Sid Murthy",
-                    "headshot": "headshotSid.jpg"
-                }
-            ]
-        },
-        {
             "role": "Alumni Relations Chair",
             "people": [
                 {
-                    "name": "Court Middleton",
-                    "headshot": "headshotCourt.jpg"
+                    "name": "Sid Murthy",
+                    "headshot": "headshotSid.jpg"
                 }
             ]
         },
@@ -104,10 +87,15 @@
                 {
                     "name": "Arya Kale",
                     "headshot": "headshotArya.jpg"
-                },
+                }
+            ]
+        },
+        {
+            "role": "Social Chair Head Administrator",
+            "people": [
                 {
-                    "name": "Scott Fordham",
-                    "headshot": "nopicture.svg"
+                    "name": "Stephen Kassem",
+                    "headshot": "headshotStef.jpg"
                 }
             ]
         },
@@ -115,16 +103,16 @@
             "role": "Social Chairs",
             "people": [
                 {
-                    "name": "Stefan Kassem",
-                    "headshot": "headshotStef.jpg"
+                    "name": "Zach Rose",
+                    "headshot": "headshotRose.jpg"
                 },
                 {
-                    "name": "Zach Burns",
-                    "headshot": "headshotBurns.jpg"
+                    "name": "Ilan Farabi",
+                    "headshot": "headshotIlan.jpg"
                 },
                 {
-                    "name": "Arya Kale",
-                    "headshot": "headshotArya.jpg"
+                    "name": "Cliff Amadeo",
+                    "headshot": "headshotCliff.jpg"
                 }
             ]
         }

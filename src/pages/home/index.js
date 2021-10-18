@@ -9,9 +9,10 @@ import CountUp from "../../components/countUp"
 import { ErrorBoundary, useErrorHandler } from "react-error-boundary"
 import ErrorFallback, { logger } from "../../components/error"
 import styles from "./home.module.css";
+import retry from "../../reload"
 import "react-alice-carousel/lib/alice-carousel.css";
 
-const AlumniNetwork = lazy(() => import('../../components/alumni'));
+const AlumniNetwork = lazy(() => retry(() => import('../../components/alumni')));
 
 const Loading = ({ style }) => {
 	return (
