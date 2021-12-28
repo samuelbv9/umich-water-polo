@@ -383,5 +383,31 @@
         "Andrew Golin"
       ]
     }
+  ],
+  "2021": [
+    {
+      "awardName": "Team MVP",
+      "recipients": [
+        "Sid Murthy"
+      ]
+    },
+    {
+      "awardName": "Team Most Improved",
+      "recipients": [
+        "Sean Underwood", "Cliff Amadeo"
+      ]
+    },
+    {
+      "awardName": "Team Rookie of the Year",
+      "recipients": [
+        "Luke Jacobson"
+      ]
+    },
+    {
+      "awardName": "Team Most Dedicated",
+      "recipients": [
+        "Brendan Chang"
+      ]
+    }
   ]
 }

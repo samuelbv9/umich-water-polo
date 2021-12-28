@@ -49,9 +49,6 @@ const FundraisingBody = () => {
         <div className={styles.fundraisingPostContainer}>
             <Post>
                 {parse(page.message)}
-                <img alt="headshot" className={styles.fundraisingHeadshot} src={`${process.env.PUBLIC_URL}/executiveHeadshots/${page.image}`}></img>
-                <div>{page.name},</div>
-                <div>{page.position}</div>
             </Post>
         </div>
     )

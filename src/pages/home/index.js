@@ -80,11 +80,13 @@ function Carousel() {
 	const handleError = useErrorHandler()
 	const orientation = useOrientation()
 
-	const slideTo = (i) => setActivePhoto(i)
-	const slideNext = () => setActivePhoto(i => (i + 1) % photos[orientation].length)
-	const slidePrev = () => setActivePhoto(i => (i - 1) % photos[orientation].length)
+    const mod = (n, m) => ((n % m) + m) % m
 
-	const getPhotos = async () => {
+	const slideTo = (i) => setActivePhoto(i)
+	const slideNext = () => setActivePhoto(i => mod(i + 1, photos[orientation].length))
+	const slidePrev = () => setActivePhoto(i => mod(i - 1, photos[orientation].length))
+
+    const getPhotos = async () => {
 		try {
 			const { data } = await axios.get("/data/slideshow.json")
 			setPhotos(data)

@@ -28,6 +28,71 @@
                     "logo": "msu.svg"
                 }
             ]
+        },
+        "Big Ten Regional 2": {
+            "location": "Boilermaker Aquatic Center",
+            "host": "Purdue University",
+            "dates": "October 23rd - 24th",
+            "directions": "https://www.google.com/maps/dir//Boilermaker+Aquatic+Center,+West+Lafayette,+IN+47906/@40.1156692,-86.5259894,6z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8812e2ca65af0be3:0x59a1e83ca2dc7e6c!2m2!1d-86.923272!2d40.4281346",
+            "games": [
+                {
+                    "opponent": "Iowa",
+                    "score": "15-8",
+                    "result": "win",
+                    "time": "2021-10-23T13:00",
+                    "logo": "iowa.svg"
+                },
+                {
+                    "opponent": "Wisconsin",
+                    "score": "10-8",
+                    "result": "win",
+                    "time": "2021-10-23T18:00",
+                    "logo": "wisco.svg"
+                },
+                {
+                    "opponent": "Illinois",
+                    "score": "12-5",
+                    "result": "win",
+                    "time": "2021-10-24T13:00",
+                    "logo": "illinois.svg"
+                },
+                {
+                    "opponent": "Indiana",
+                    "score": "19-2",
+                    "result": "win",
+                    "time": "2021-10-24T16:00",
+                    "logo": "iu.svg"
+                }
+            ]
+        },
+        "Big Ten Championship": {
+            "location": "Iowa Natatorium",
+            "host": "University of Iowa",
+            "dates": "October 30th - 31st",
+            "directions": "https://www.google.com/maps/dir//university+of+Iowa+(Campus+Rec+%26+Wellness+Center),+Iowa+City,+IA/@39.9459346,-93.330427,5z/data=!4m8!4m7!1m0!1m5!1m1!1s0x87e441ecf3eeaaa7:0x3f82109ef910dc9e!2m2!1d-91.5384854!2d41.6571426",
+            "games": [
+                {
+                    "opponent": "Illinois",
+                    "score": "18-6",
+                    "result": "win",
+                    "time": "2021-10-30T14:50",
+                    "logo": "illinois.svg"
+                },
+                {
+                    "opponent": "Wisconsin",
+                    "score": "17-13",
+                    "result": "win",
+                    "time": "2021-10-30T20:40",
+                    "logo": "wisco.svg"
+                },
+                {
+                    "opponent": "Michigan State",
+                    "score": "4-7",
+                    "result": "loss",
+                    "time": "2021-10-31T11:50",
+                    "logo": "msu.svg"
+                }
+            ]
         }
     },
     "2019": {

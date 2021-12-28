@@ -45,12 +45,13 @@ const Form = () => {
 		if (key === "gradDate") {
 			let month = (store[key].value.getMonth() + 1) + ""
 			return `${month.length === 1 ? "0" + month : month}/${store[key].value.getFullYear()}`
-		} if (key === "position") {
+		} else if (key === "position") {
 			return store[key].value.join(",")
-		} if (key === "phone") {
+		} else if (key === "phone") {
 			return `+${store[key].value.code} ${store[key].value.number}`
-		}
-		return store[key].value || ""
+		} else {
+            return store[key].value || ""
+        } 
 	}
 
 	const getFormLink = v => {
@@ -81,7 +82,7 @@ const Form = () => {
 				getFormLink(formType.value),
 				{
 					mode: 'no-cors',
-					method: "POST",
+					method: 'POST',
 					body: new URLSearchParams(submission)
 				})
 			setConfirm(2)
@@ -96,7 +97,7 @@ const Form = () => {
 		<>
 			{!confirm &&
 				<ErrorBoundary FallbackComponent={ErrorFallback} onError={logger}>
-					<form style={{ display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", marginBottom: "1rem" }}>
+					<form style={{ display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
 						<div className={styles.formHolder}>
 							<NameInput {...createHandler("name")} shouldShowError={shouldShowError} />
 							<EmailInput {...createHandler("email")} shouldShowError={shouldShowError} />
@@ -107,7 +108,7 @@ const Form = () => {
 
 						{
 							formType.value === 0 && <>
-								<Typography className={styles.athleteReqNote}>NOTE: The ability to swim 500 yards unassisted is a prerequisite skill to join the team as a player</Typography>
+								<Typography className={styles.athleteReqNote}>If you are interested in joining the team, please fill out the form below! We welcome <b>ALL</b> experience levels, so don't be discouraged if you have 0 years of experience or no water polo awards. The only requirment to join the team is the ability to swim 500 yards unassisted.</Typography>
 								<AthleteForm createHandler={createHandler} shouldShowError={shouldShowError} />
 							</>
 						}
@@ -117,8 +118,12 @@ const Form = () => {
 						{
 							!!formType.value && <Message {...createHandler("message")} shouldShowError={shouldShowError} />
 						}
-						<Button style={{ marginTop: ".5rem" }} onClick={handleSubmit} variant="contained" color="primary">Submit</Button>
-					</form>
+                       
+						<Button style={{ marginTop: ".5rem" }} onClick={handleSubmit} variant="contained" color="primary">{shouldShowError ? "Retry Submission" : "Submit"}</Button>
+                        {
+                            shouldShowError && <Typography variant="caption" style = {{color:"red", maxWidth: "calc(100% - 2rem)", textAlign:"center", marginTop:"1rem"}}>Error detected. Please check each input for an error message.</Typography>
+                        }
+                    </form>
 				</ErrorBoundary>
 			}
 
@@ -232,7 +237,7 @@ const PhoneInput = ({ saveValue, setIsValid, shouldShowError, storeValue }) => {
 const FormTypeSelector = ({ formType, setFormType, shouldShowError, saveValue, setIsValid }) => {
 	const getFormFields = value => {
 		if (value === 0) {
-			return [{ value: 'name', entry: "entry.824923744" }, { value: 'email', entry: "entry.1946615411" }, { value: 'phone', entry: "entry.1048864697" }, { value: 'hometownCity', entry: "entry.1429166208" }, { value: 'hometownState', entry: "entry.722722302" }, { value: 'gradDate', entry: "entry.1743803299" }, { value: 'degree', entry: "entry.68182095" }, { value: 'freeTime', entry: "entry.2035085070" }, { value: 'experience', entry: "entry.74751114" }, { value: 'dominantHand', entry: "entry.1054216554" }, { value: 'position', entry: "entry.470668351" }, { value: 'pastTeams', entry: "entry.1726469196" }, { value: 'additionalInfo', entry: "entry.1567373700" }]
+			return [{ value: 'name', entry: "entry.824923744" }, { value: 'email', entry: "entry.1946615411" }, { value: 'phone', entry: "entry.1048864697" }, { value: 'hometownCity', entry: "entry.1429166208" }, { value: 'hometownState', entry: "entry.722722302" }, { value: 'gradDate', entry: "entry.1743803299" }, { value: 'degree', entry: "entry.68182095" }, { value: 'freeTime', entry: "entry.2035085070" }, { value: 'experience', entry: "entry.74751114" }, { value: 'dominantHand', entry: "entry.1054216554" }, { value: 'position', entry: "entry.470668351" }, { value: 'pastTeams', entry: "entry.1726469196" }, {value: 'awards', entry: 'entry.277926910'}, { value: 'additionalInfo', entry: "entry.1567373700" }]
 		} else {
 			let base = [{ value: 'name', entry: "entry.238190827" }, { value: 'email', entry: "entry.913578307" }, { value: 'phone', entry: "entry.1832837971" }]
 			if (value === 7) {
@@ -386,7 +391,7 @@ const YearsOfExperience = ({ saveValue, setIsValid, shouldShowError, storeValue 
 		setIsValid(!!e.target.value)
 	}
 	const isError = shouldShowError && !state
-	return <TextField style={{ margin: "1rem 2rem", width: "200px" }} value={state} onChange={handleChange} label="*Years of Experience" placeholder="2" helperText={isError ? "Years of experience is required" : "0 years is totally fine!"} error={isError} />
+	return <TextField style={{ margin: "1rem 2rem", width: "200px" }} value={state} onChange={handleChange} label="*Years of Experience" placeholder="2" helperText={isError ? "Years of experience is required" : " "} error={isError} />
 }
 const Positions = ({ saveValue, setIsValid, shouldShowError, storeValue }) => {
 	const [state, setState] = useState(storeValue || [])
@@ -440,6 +445,21 @@ const PastTeams = ({ saveValue, setIsValid, storeValue }) => {
 	return <TextField multiline style={{ margin: "1rem 2rem", maxWidth: "calc(400px + 4rem)", width: "calc(100% - 4rem)" }} value={state} onChange={handleChange} label="Teams You've Played For" placeholder="Pioneer High School" />
 }
 
+const Awards = ({ saveValue, setIsValid, storeValue }) => {
+	const [state, setState] = useState(storeValue || "")
+
+	useEffect(() => {
+		setIsValid(true)
+		// eslint-disable-next-line
+	}, [])
+
+	const handleChange = e => {
+		setState(e.target.value)
+		saveValue(e.target.value)
+	}
+	return <TextField multiline style={{ margin: "1rem 2rem", maxWidth: "calc(400px + 4rem)", width: "calc(100% - 4rem)" }} value={state} onChange={handleChange} label="Water Polo Awards" placeholder="Michigan First Team All-State" />
+}
+
 const AdditionalInfo = ({ saveValue, setIsValid, storeValue }) => {
 	const [state, setState] = useState(storeValue || "")
 
@@ -467,6 +487,7 @@ const AthleteForm = ({ createHandler, shouldShowError }) => {
 			<DominantHand {...createHandler("dominantHand")} shouldShowError={shouldShowError} />
 			<Positions {...createHandler("position")} shouldShowError={shouldShowError} />
 			<PastTeams {...createHandler("pastTeams")} />
+            <Awards {...createHandler("awards")} />
 			<AdditionalInfo {...createHandler("additionalInfo")} />
 		</div>
 	)

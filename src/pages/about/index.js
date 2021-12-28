@@ -52,13 +52,23 @@ function AboutBody() {
 					</Post>
 				</div>
 			</ErrorBoundary>
+            
+            {
+				loading ? <Loading /> :
+					<>
+						<SectionBanner>Coaches</SectionBanner>
+						<ErrorBoundary FallbackComponent={ErrorFallback} onError={logger}>
+							<PeopleContainer eboard={about.coaches} />
+						</ErrorBoundary>
+					</>
+			}
 
 			{
 				loading ? <Loading /> :
 					<>
 						<SectionBanner>Executive Board</SectionBanner>
 						<ErrorBoundary FallbackComponent={ErrorFallback} onError={logger}>
-							<EBoardContainer eboard={about.eboard} />
+							<PeopleContainer eboard={about.eboard} />
 						</ErrorBoundary>
 					</>
 			}
@@ -68,14 +78,14 @@ function AboutBody() {
 	)
 }
 
-const EBoardContainer = ({ eboard }) => {
+const PeopleContainer = ({ eboard }) => {
 	return (
 		eboard.map((post, index) => {
 			return (
-				<div key={index} className={`${styles.eboardContainer} ${index % 2 ? styles.odd : ""}`}>
+				<div key={index} className={`${styles.PeopleContainer} ${index % 2 ? styles.odd : ""}`}>
 					<ErrorBoundary fallback={<div>Error</div>} onError={logger}>
 						<div className={styles.executiveRole}>{post.role}</div>
-						<EBoardPeople people={post.people} />
+						<Position people={post.people} />
 					</ErrorBoundary>
 				</div>
 			)
@@ -84,14 +94,14 @@ const EBoardContainer = ({ eboard }) => {
 	)
 }
 
-function EBoardPeople({ people }) {
+function Position({ people }) {
 	return (
 		<div className={styles.executiveContainer}>
 			{
 				people.map((item, index) => {
 					return (
 						<ErrorBoundary key={index} fallback={<div>Error</div>} onError={logger}>
-							<EBoardPerson details={item} />
+							<Person details={item} />
 						</ErrorBoundary>
 					)
 				})
@@ -100,7 +110,7 @@ function EBoardPeople({ people }) {
 	)
 }
 
-const EBoardPerson = ({ details }) => {
+const Person = ({ details }) => {
 	return (
 		<div className={styles.executiveInfo}>
 			{details.headshot && <Image alt="headshot" className={styles.executiveHeadshot} src={`${process.env.PUBLIC_URL}/executiveHeadshots/${details.headshot}`} />}

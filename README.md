@@ -11,7 +11,7 @@ Once that is finished, you can run the following command to serve the site on yo
 
 And just like that, you have the project up and running on http://localhost:3000/~umpolo. 
 
-## Making a simple change
+## Making a content change
 A simple change is anything that has to do with the content on the pages. To change the content, simply navigate to the public directory and data subdirectory. The data is served to the website through the JSON files in this folder. To make a change, simply add/alter/remove  data in the appropriate file. Simply read the first couple of entries to understand how the modifications must be formatted. To upload images for the files (should it be necessary for the section you are modifying), make sure you upload the image into the proper subdirectory within the public directory. Use SVGs for icons and always optimize images (example tools to optimize are imageoptim and svgo).
 
 ## Deployment

@@ -5,7 +5,7 @@
             {
                 "isCaptian": false,
                 "name": "Luke Jacobson",
-                "hometown": "New York City, NY",
+                "hometown": "Brooklyn, NY",
                 "bio": "FR, History",
                 "headshot": "teamLuke2021.jpg"
             },
@@ -18,7 +18,7 @@
             },
             {
                 "isCaptian": false,
-                "name": "Brick",
+                "name": "Brian Underwood",
                 "hometown": "San Franciso, CA",
                 "bio": "FR, Physics",
                 "headshot": "teamBrick2021.jpg"
@@ -195,7 +195,7 @@
                 "isCaptian": false,
                 "name": "Stefan Kassem",
                 "hometown": "Princeton, NJ",
-                "bio": "SR, Economics",
+                "bio": "SR, Economics and Math",
                 "headshot": "teamStef2021.jpg"
             },
             {
@@ -368,7 +368,7 @@
                 "isCaptian": false,
                 "name": "Stefan Kassem",
                 "hometown": "Princeton, NJ",
-                "bio": "JR, Economics",
+                "bio": "JR, Economics and Math and Math",
                 "headshot": "teamStef2019.jpg"
             },
             {
@@ -548,7 +548,7 @@
                 "isCaptian": false,
                 "name": "Stefan Kassem",
                 "hometown": "Princeton, NJ",
-                "bio": "SO, Economics",
+                "bio": "SO, Economics and Math",
                 "headshot": "teamStef2018.jpg"
             },
             {
@@ -664,7 +664,7 @@
                 "isCaptian": false,
                 "name": "Stefan Kassem",
                 "hometown": "Princeton, NJ",
-                "bio": "FR, Economics",
+                "bio": "FR, Economics and Math",
                 "headshot": "teamStef2017.jpg"
             },
             {
