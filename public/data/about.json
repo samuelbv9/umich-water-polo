@@ -25,7 +25,7 @@
             "role": "President",
             "people": [
                 {
-                    "name": "Zach Burns",
+                    "name": "Zachary Burns",
                     "headshot": "headshotBurns.jpg"
                 }
             ]
@@ -34,8 +34,8 @@
             "role": "Vice President",
             "people": [
                 {
-                    "name": "Drew Golin",
-                    "headshot": "headshotDrew.jpg"
+                    "name": "Clifford Amadeo",
+                    "headshot": "headshotCliff.jpg"
                 }
             ]
         },
@@ -43,8 +43,8 @@
             "role": "Treasurer",
             "people": [
                 {
-                    "name": "Jeffrey Brill",
-                    "headshot": "nopicture.svg"
+                    "name": "Cameron Schulte",
+                    "headshot": "headshotCam.jpg"
                 }
             ]
         },
@@ -52,16 +52,16 @@
             "role": "Captains",
             "people": [
                 {
-                    "name": "Chris Lobdell",
-                    "headshot": "headshotLobdell.jpg"
+                    "name": "Sean Underwood",
+                    "headshot": "headshotSean.jpg"
                 },
                 {
-                    "name": "Maverick Becker",
-                    "headshot": "headshotMav.jpg"
+                    "name": "Cameron Schulte",
+                    "headshot": "headshotCam.jpg"
                 },
                 {
-                    "name": "Scott Fordham",
-                    "headshot": "headshotScott.jpg"
+                    "name": "Zachary Burns",
+                    "headshot": "headshotBurns.jpg"
                 }
             ]
         },
@@ -69,8 +69,8 @@
             "role": "Fundraising Chair",
             "people": [
                 {
-                    "name": "Adam Schnepf",
-                    "headshot": "headshotAdam.jpg"
+                    "name": "Sean Underwood",
+                    "headshot": "headshotSean.jpg"
                 }
             ]
         },
@@ -78,8 +78,8 @@
             "role": "Travel Coordinator",
             "people": [
                 {
-                    "name": "Maverick Becker",
-                    "headshot": "headshotMav.jpg"
+                    "name": "Ilan Farabi",
+                    "headshot": "headshotIlan.jpg"
                 }
             ]
         },
@@ -87,8 +87,26 @@
             "role": "Web Master",
             "people": [
                 {
-                    "name": "Matthew Ferrari",
-                    "headshot": "headshotRari.jpg"
+                    "name": "Adam Gunn",
+                    "headshot": "headshotGunn.jpg"
+                }
+            ]
+        },
+        {
+            "role": "Web Team",
+            "people": [
+                {
+                    "name": "Samuel Bechar",
+                    "headshot": "headshotSam.jpg"
+                }
+            ]
+        },
+        {
+            "role": "Social Media Chair",
+            "people": [
+                {
+                    "name": "Joe Novak",
+                    "headshot": "headshotJoe.jpg"
                 }
             ]
         },
@@ -96,26 +114,17 @@
             "role": "Alumni Relations Chair",
             "people": [
                 {
-                    "name": "Sid Murthy",
-                    "headshot": "headshotSid.jpg"
+                    "name": "Andrew Golin",
+                    "headshot": "headshotDrew.jpg"
                 }
             ]
         },
         {
-            "role": "Community Service Chairs",
+            "role": "Community Service Chair",
             "people": [
                 {
-                    "name": "Arya Kale",
-                    "headshot": "headshotArya.jpg"
-                }
-            ]
-        },
-        {
-            "role": "Social Chair Head Administrator",
-            "people": [
-                {
-                    "name": "Stefan Kassem",
-                    "headshot": "headshotStef.jpg"
+                    "name": "Brendan Saur",
+                    "headshot": "nopicture.svg"
                 }
             ]
         },
@@ -127,12 +136,12 @@
                     "headshot": "headshotRose.jpg"
                 },
                 {
-                    "name": "Ilan Farabi",
-                    "headshot": "headshotIlan.jpg"
+                    "name": "Luke Jacobson",
+                    "headshot": "headshotLuke.jpg"
                 },
                 {
-                    "name": "Cliff Amadeo",
-                    "headshot": "headshotCliff.jpg"
+                    "name": "Joe Novak",
+                    "headshot": "headshotJoe.jpg"
                 }
             ]
         }
