@@ -67,6 +67,13 @@
             },
             {
                 "isCaptian": false,
+                "name": "Brenden Saur",
+                "hometown": "Rockford, MI",
+                "bio": "FR, Computer Science",
+                "headshot": "nopicture.svg"
+            },
+            {
+                "isCaptian": false,
                 "name": "Adam Gunn",
                 "hometown": "Chicago, IL",
                 "bio": "SO, Computer Science",
