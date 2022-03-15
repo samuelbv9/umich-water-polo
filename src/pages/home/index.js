@@ -22,9 +22,35 @@ const Loading = ({ style }) => {
 	)
 }
 
+const GBDBanner = () => {
+	const [visible, setVisible] = useState(true);
+
+	return (
+		visible ?
+			<div className={styles.bannerContainer}>
+					<svg className={styles.bannerX} viewBox="0 0 16 16" onClick={() => setVisible(false)}>
+						<path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+						<path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+					</svg>
+					<h1 className={styles.bannerHeader}>
+						<a href={`${process.env.PUBLIC_URL}/fundraising`} className={styles.bannerLink}>
+							Giving Blueday is this Wednesday 3/16
+						</a>
+					</h1>
+					<h2 className={styles.bannerSubheader}>
+						<a href={`${process.env.PUBLIC_URL}/fundraising`} className={styles.bannerLink}>
+							Click here to learn more
+						</a>
+					</h2>
+			</div>
+		: <></>
+	);
+}
+
 export default function Home() {
 	return (
 		<div className={styles.bodyContainer}>
+			<GBDBanner />
 			<ErrorBoundary FallbackComponent={ErrorFallback} onError={logger}>
 				<Carousel />
 			</ErrorBoundary>
