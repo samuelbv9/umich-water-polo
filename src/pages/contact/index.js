@@ -24,7 +24,7 @@ import styles from "./contact.module.css"
 export default function ContactUs() {
 	return (
 		<div className={styles.contactBody} >
-			<ImageIntro src={`${process.env.PUBLIC_URL}/bannerPhotos/banquet.jpg`} />
+			<ImageIntro src={`${process.env.PUBLIC_URL}/bannerPhotos/shot.jpg`} />
 			<ErrorBoundary FallbackComponent={ErrorFallback} onError={logger}>
 				<Form />
 			</ErrorBoundary>
