@@ -12,7 +12,7 @@ const days = [
 	"Sat"
 ]
 
-export default function Game({ isOddIndex, opponent, score, result, viewingLink, logo, time: gameTime }) {
+export default function Game({ isOddIndex, opponent, score, result, viewingLink, logo, time: gameTime, bTeam, aTeam }) {
 
 	const addZero = (s) => s.length === 1 ? "0" + s : s
 
@@ -38,7 +38,9 @@ export default function Game({ isOddIndex, opponent, score, result, viewingLink,
 				/>
 				<div className={styles.gameInfoText}>
 					<div>{month}.{dayN} ({dayL}) / {hour}:{min} ET</div>
-					<div><b>{"vs. " + opponent.toUpperCase()}</b></div>
+					{bTeam ? <div><b>{"B TEAM vs. " + opponent.toUpperCase()}</b></div>
+						: aTeam ? <div><b>{"A TEAM vs. " + opponent.toUpperCase()}</b></div>
+						: <div><b>{"vs. " + opponent.toUpperCase()}</b></div>}
 				</div>
 			</div>
 			<Divider variant="middle" className={styles.mobileScoreDivider} />

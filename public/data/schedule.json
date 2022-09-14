@@ -1,4 +1,50 @@
 {
+    "2022": {
+        "Sparty Invite": {
+            "location": "McCaffree Pool",
+            "host": "Michigan State",
+            "dates": "September 16th - 17th",
+            "directions": "https://www.google.com/maps/dir//200+Chestnut+Rd,+East+Lansing,+MI+48824/@42.729561,-84.4904048,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8822c278f897b8b3:0xf323b449bdc8c0cb!2m2!1d-84.4883019!2d42.7290862",
+            "games": [
+                {
+                    "opponent": "Michigan State B",
+                    "time": "2022-09-16T19:30",
+                    "bTeam": true,
+                    "logo": "msu.svg"
+                },
+                {
+                    "opponent": "Michigan State A",
+                    "time": "2022-09-16T20:30",
+                    "aTeam": true,
+                    "logo": "msu.svg"
+                },
+                {
+                    "opponent": "Ohio State A",
+                    "time": "2022-09-17T11:25",
+                    "bTeam": true,
+                    "logo": "osu.svg"
+                },
+                {
+                    "opponent": "Grand Valley State",
+                    "time": "2022-09-17T12:20",
+                    "aTeam": true,
+                    "logo": "gvsu.svg"
+                },
+                {
+                    "opponent": "Ohio State B",
+                    "time": "2022-09-17T14:10",
+                    "bTeam": true,
+                    "logo": "osu.svg"
+                },
+                {
+                    "opponent": "Ohio State A",
+                    "time": "2022-09-17T15:05",
+                    "aTeam": true,
+                    "logo": "osu.svg"
+                }
+            ]
+        }
+    },
     "2021": {
         "Big Ten Regional 1": {
             "location": "Canham Natatorium",

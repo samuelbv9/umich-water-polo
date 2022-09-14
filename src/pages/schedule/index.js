@@ -111,6 +111,8 @@ const Tournaments = ({ schedule, selectedYear }) => {
 											viewingLink={game.viewingLink}
 											time={game.time}
 											logo={game.logo}
+											bTeam={game.bTeam}
+											aTeam={game.aTeam}
 										/>
 									);
 								}
