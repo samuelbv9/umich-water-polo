@@ -1,47 +1,69 @@
 {
     "2022": {
-        "Sparty Invite": {
-            "location": "McCaffree Pool",
-            "host": "Michigan State",
-            "dates": "September 16th - 17th",
-            "directions": "https://www.google.com/maps/dir//200+Chestnut+Rd,+East+Lansing,+MI+48824/@42.729561,-84.4904048,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8822c278f897b8b3:0xf323b449bdc8c0cb!2m2!1d-84.4883019!2d42.7290862",
+        "Big Ten Crossover": {
+            "location": "Councilman Aquatic Center",
+            "host": "Indiana University",
+            "dates": "October 1st - 2nd",
+            "directions": "https://www.google.com/maps/dir//indiana+university+natatorium+bloomington/@39.1735742,-86.5467462,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x886c66baf26adc91:0xf123d7b85e103722!2m2!1d-86.5117267!2d39.1735794",
             "games": [
                 {
-                    "opponent": "Michigan State B",
-                    "time": "2022-09-16T19:30",
-                    "bTeam": true,
-                    "logo": "msu.svg"
+                    "opponent": "Wisconsin",
+                    "time": "2022-10-01T14:20",
+                    "logo": "wisco.svg"
                 },
                 {
-                    "opponent": "Michigan State A",
-                    "time": "2022-09-16T20:30",
-                    "aTeam": true,
-                    "logo": "msu.svg"
+                    "opponent": "Illinois",
+                    "time": "2022-10-01T17:05",
+                    "logo": "illinois.svg"
                 },
                 {
-                    "opponent": "Ohio State A",
-                    "time": "2022-09-17T11:25",
-                    "bTeam": true,
-                    "logo": "osu.svg"
+                    "opponent": "Iowa",
+                    "time": "2022-10-02T08:30",
+                    "logo": "iowa.svg"
                 },
                 {
-                    "opponent": "Grand Valley State",
-                    "time": "2022-09-17T12:20",
-                    "aTeam": true,
-                    "logo": "gvsu.svg"
-                },
-                {
-                    "opponent": "Ohio State B",
-                    "time": "2022-09-17T14:10",
-                    "bTeam": true,
-                    "logo": "osu.svg"
-                },
-                {
-                    "opponent": "Ohio State A",
-                    "time": "2022-09-17T15:05",
-                    "aTeam": true,
-                    "logo": "osu.svg"
+                    "opponent": "Indiana",
+                    "time": "2022-10-02T15:30",
+                    "logo": "iu.svg"
                 }
+            ]
+        },
+        "Big Ten East Regional": {
+            "location": "East Kentwood High School",
+            "host": "Michigan State",
+            "dates": "October 15th - 16th",
+            "directions": "https://www.google.com/maps/dir//East+Kentwood+High+School,+Kalamazoo+Avenue+Southeast,+Kentwood,+MI/@42.8511875,-85.6527418,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8819b49f2fd13981:0xffbb3ae5e02c8ce3!2m2!1d-85.6177224!2d42.8511928",
+            "games": [
+                {
+                    "opponent": "Purdue",
+                    "time": "2022-10-15T09:30",
+                    "logo": "purdue.svg"
+                },
+                {
+                    "opponent": "Northwestern",
+                    "time": "2022-10-15T11:50",
+                    "logo": "nw.svg"
+                },
+                {
+                    "opponent": "Ohio State",
+                    "time": "2022-10-15T15:20",
+                    "logo": "osu.svg"
+                },
+                {
+                    "opponent": "Michigan State",
+                    "time": "2022-10-16T10:30",
+                    "logo": "msu.svg"
+                }
+            ]
+        },
+        "Big Ten Championship": {
+            "location": "Canham Natatorium",
+            "host": "University of Michigan",
+            "dates": "October 22nd - 23rd",
+            "directions": "https://www.google.com/maps/dir//Canham+Natatorium,+East+Hoover+Avenue,+Ann+Arbor,+MI/@42.2692971,-83.7789467,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x883cae36eff83e1f:0xc63b105740253336!2m2!1d-83.7438415!2d42.2693025",
+            "TBD": true,
+            "games": [
+
             ]
         }
     },

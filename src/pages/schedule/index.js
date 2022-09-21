@@ -98,6 +98,8 @@ const Tournaments = ({ schedule, selectedYear }) => {
 							directions={schedule[selectedYear][tournament].directions}
 						/>
 						{
+							schedule[selectedYear][tournament].TBD ?
+							<p className={styles.TBDtext}> - Schedule TBD - </p> :
 							// Render all games in tournament
 							schedule[selectedYear][tournament].games.map(
 								(game, index) => {
@@ -135,6 +137,7 @@ const SeasonStats = ({ selectedYear, schedule }) => {
 			let newState = { wins: 0, losses: 0 }
 			for (const tournamentTitle in schedule[selectedYear]) {
 				let tournament = schedule[selectedYear][tournamentTitle]
+				if (tournament.excludeInWinLossTotal) continue;
 				for (let i = 0; i < tournament.games.length; i++) {
 					if (tournament.games[i].result === "win") {
 						newState.wins += 1
@@ -200,7 +203,7 @@ const TournBanner = ({ name, location, directions, dates, host }) => {
 		<div className={styles.bannerHolder}>
 			<div className={styles.tournamentName}><b>{name}</b></div>
 			<div className={styles.bannerRow}>
-				<div>{dates}</div>
+				<div className={styles.bannerDates}>{dates}</div>
 				<div>@ {host}</div>
 				<div className={styles.tournamentLocation} onClick={() => window.open(directions, "_blank")}>
 					<img className={styles.hubIcon} alt="hub icon" src={`${process.env.PUBLIC_URL}/icons/map.png`} />
