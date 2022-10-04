@@ -9,22 +9,30 @@
                 {
                     "opponent": "Wisconsin",
                     "time": "2022-10-01T14:20",
-                    "logo": "wisco.svg"
+                    "logo": "wisco.svg",
+                    "result": "win",
+                    "score": "9-7"
                 },
                 {
                     "opponent": "Illinois",
                     "time": "2022-10-01T17:05",
-                    "logo": "illinois.svg"
+                    "logo": "illinois.svg",
+                    "result": "tie",
+                    "score": "8-8"
                 },
                 {
                     "opponent": "Iowa",
                     "time": "2022-10-02T08:30",
-                    "logo": "iowa.svg"
+                    "logo": "iowa.svg",
+                    "result": "win",
+                    "score": "13-7"
                 },
                 {
                     "opponent": "Indiana",
                     "time": "2022-10-02T15:30",
-                    "logo": "iu.svg"
+                    "logo": "iu.svg",
+                    "result": "win",
+                    "score": "12-3"
                 }
             ]
         },
