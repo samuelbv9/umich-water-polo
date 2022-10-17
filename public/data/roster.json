@@ -82,7 +82,7 @@
             {
                 "isCaptian": false,
                 "name": "David Jin",
-                "hometown": "Ann Arbor, MI",
+                "hometown": "Kalamazoo, MI",
                 "bio": "SO, Psychology",
                 "headshot": "teamDavid2022.jpg"
             },
@@ -123,13 +123,6 @@
             },
             {
                 "isCaptian": false,
-                "name": "Cliff Amadeo",
-                "hometown": "Lansing, MI",
-                "bio": "JR, Mechanical Engineering",
-                "headshot": "teamCliff2022.jpg"
-            },
-            {
-                "isCaptian": false,
                 "name": "Ilan Farabi",
                 "hometown": "Commerce, MI",
                 "bio": "JR, Economics",
@@ -144,9 +137,16 @@
             },
             {
                 "isCaptian": false,
+                "name": "Cliff LeVeque",
+                "hometown": "Holt, MI",
+                "bio": "JR, Mechanical Engineering",
+                "headshot": "teamCliff2022.jpg"
+            },
+            {
+                "isCaptian": false,
                 "name": "Will McKinley",
-                "hometown": "West Point, NY",
-                "bio": "JR, Philosophy",
+                "hometown": "Fremont, CA",
+                "bio": "JR, Nursing",
                 "headshot": "teamWill2022.jpg"
             },
             {
@@ -173,8 +173,8 @@
             {
                 "isCaptian": false,
                 "name": "Jeff Brill",
-                "hometown": "Orlando, FL",
-                "bio": "SR, Sociology",
+                "hometown": "Okemos, MI",
+                "bio": "SR, Computer Science",
                 "headshot": "teamJeff2022.jpg"
             },
             {
@@ -276,16 +276,9 @@
             {
                 "isCaptian": false,
                 "name": "David Jin",
-                "hometown": "Ann Arbor, MI",
+                "hometown": "Kalamazoo, MI",
                 "bio": "FR, Psychology",
                 "headshot": "teamDavid2021.jpg"
-            },
-            {
-                "isCaptian": false,
-                "name": "Will McKinley",
-                "hometown": "West Point, NY",
-                "bio": "FR, Philosophy",
-                "headshot": "teamWill2021.jpg"
             },
             {
                 "isCaptian": false,
@@ -293,6 +286,13 @@
                 "hometown": "Rockford, MI",
                 "bio": "FR, Computer Science",
                 "headshot": "nopicture.svg"
+            },
+            {
+                "isCaptian": false,
+                "name": "Will McKinley",
+                "hometown": "Fremont, CA",
+                "bio": "SO, Nursing",
+                "headshot": "teamWill2021.jpg"
             },
             {
                 "isCaptian": false,
@@ -310,8 +310,8 @@
             },
             {
                 "isCaptian": false,
-                "name": "Cliff Amadeo",
-                "hometown": "Lansing, MI",
+                "name": "Cliff LeVeque",
+                "hometown": "Holt, MI",
                 "bio": "SO, Mechanical Engineering",
                 "headshot": "teamCliff2021.jpg"
             },

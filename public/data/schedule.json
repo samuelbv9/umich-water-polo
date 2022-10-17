@@ -45,22 +45,23 @@
                 {
                     "opponent": "Purdue",
                     "time": "2022-10-15T09:30",
-                    "logo": "purdue.svg"
-                },
-                {
-                    "opponent": "Northwestern",
-                    "time": "2022-10-15T11:50",
-                    "logo": "nw.svg"
+                    "logo": "purdue.svg",
+                    "result": "win",
+                    "score": "16-6"
                 },
                 {
                     "opponent": "Ohio State",
-                    "time": "2022-10-15T15:20",
-                    "logo": "osu.svg"
+                    "time": "2022-10-15T14:00",
+                    "logo": "osu.svg",
+                    "result": "win",
+                    "score": "12-11 (2OT)"
                 },
                 {
                     "opponent": "Michigan State",
                     "time": "2022-10-16T10:30",
-                    "logo": "msu.svg"
+                    "logo": "msu.svg",
+                    "result": "loss",
+                    "score": "9-11"
                 }
             ]
         },
@@ -69,9 +70,13 @@
             "host": "University of Michigan",
             "dates": "October 22nd - 23rd",
             "directions": "https://www.google.com/maps/dir//Canham+Natatorium,+East+Hoover+Avenue,+Ann+Arbor,+MI/@42.2692971,-83.7789467,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x883cae36eff83e1f:0xc63b105740253336!2m2!1d-83.7438415!2d42.2693025",
-            "TBD": true,
+            "bracketLink": true,
             "games": [
-
+                {
+                    "opponent": "Illinois",
+                    "time": "2022-10-22T14:30",
+                    "logo": "illinois.svg"
+                }
             ]
         }
     },

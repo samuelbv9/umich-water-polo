@@ -97,6 +97,9 @@ const Tournaments = ({ schedule, selectedYear }) => {
 							dates={schedule[selectedYear][tournament].dates}
 							directions={schedule[selectedYear][tournament].directions}
 						/>
+						{schedule[selectedYear][tournament].bracketLink &&
+							<p className={styles.bracketLink}><a href={`${process.env.PUBLIC_URL}/bracket`}>Click here</a> to view the full bracket!</p>
+						}
 						{
 							schedule[selectedYear][tournament].TBD ?
 							<p className={styles.TBDtext}> - Schedule TBD - </p> :

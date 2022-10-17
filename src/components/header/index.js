@@ -45,7 +45,7 @@ export default function Header() {
     )
 }
 
-function useIsMobile() {
+export function useIsMobile() {
     const [size, setSize] = useState(true);
     useEffect(() => {
         function updateSize() {
