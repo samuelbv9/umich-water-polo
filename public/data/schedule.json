@@ -75,7 +75,59 @@
                 {
                     "opponent": "Illinois",
                     "time": "2022-10-22T14:30",
-                    "logo": "illinois.svg"
+                    "logo": "illinois.svg",
+                    "result": "win",
+                    "score": "16-10"
+                },
+                {
+                    "opponent": "Ohio State",
+                    "time": "2022-10-22T20:30",
+                    "logo": "osu.svg",
+                    "result": "win",
+                    "score": "8-7 (OT)"
+                },
+                {
+                    "opponent": "Michigan State",
+                    "time": "2022-10-23T14:30",
+                    "logo": "msu.svg",
+                    "result": "win",
+                    "score":"8-7"
+                }
+            ]
+        },
+        "National Championship": {
+            "location": "Chehalem Aquatic Center",
+            "host": "Oregon State University",
+            "dates": "November 11th-13th",
+            "directions": "https://www.google.com/maps/dir//Chehalem+Aquatic+and+Fitness+Center,+Haworth+Avenue,+Newberg,+OR/@45.3071238,-122.9963052,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x54956a7c4baa392b:0xdc144fca621eb5b4!2m2!1d-122.9611437!2d45.3070703",
+            "games": [
+                {
+                    "opponent": "Oregon State",
+                    "time": "2022-11-11T12:00",
+                    "logo": "oregonstate.svg",
+                    "result": "win",
+                    "score": "17-10"
+                },
+                {
+                    "opponent": "Penn State",
+                    "time": "2022-11-12T12:00",
+                    "logo": "psu.svg",
+                    "result": "win",
+                    "score": "16-14"
+                },
+                {
+                    "opponent": "UC San Diego",
+                    "time": "2022-11-12T20:10",
+                    "logo": "ucsd.svg",
+                    "result": "loss",
+                    "score": "6-14"
+                },
+                {
+                    "opponent": "Washington-St. Louis",
+                    "time": "2022-11-13T14:30",
+                    "logo": "washu.svg",
+                    "result": "win",
+                    "score": "9-8"
                 }
             ]
         }

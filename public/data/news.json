@@ -1,8 +1,18 @@
 {
     "news": [
         {
+            "title": "Third in the Nation",
+            "date": "November 13th, 2022",
+            "content": "After taking back the Big Ten title for the first time since 2018, your Wolverines competed in the CWPA National Championship in Newberg, OR. After defeating Oregon State and Penn State in our first two games, we fell to the UC San Diego Tritons in the semifinals. However, we bounced back and were able to take care of business against WashU in the third place game. Congratulations to all the teams that competed in the tournament! This concludes our 2022 season. Thank you to everyone for their support!"
+        },
+        {
+            "title": "2022 Big Ten Champions",
+            "date": "October 23rd, 2022",
+            "content": "This weekend we competed in the CWPA Big Ten Championship and emerged victorious with wins against Illinois, Ohio State, and Michigan State! We are looking forward to competing in nationals in Oregon in a few weeks!\n\nGo Blue!"
+        },
+        {
             "title": "Sparty Invite Wins",
-            "date": "September 20, 2022",
+            "date": "September 20th, 2022",
             "content": "Your Michigan Wolverines have started the season off with a bang, taking home three convincing wins against Michigan State, Grand Valley State, and Ohio State this past weekend at the Sparty Invite! A win against the defending national champions (Michigan State) always feels great. :) We're looking forward to seeing what the rest of the season has in store! Go Blue!"
         },
         {

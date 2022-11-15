@@ -1,5 +1,6 @@
 <IfModule mod_rewrite.c>
     CosignProtected Off
+    Require all granted
     RewriteEngine On
     RewriteBase /
     RewriteRule ^index\.html$ - [L]

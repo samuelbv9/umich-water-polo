@@ -4,9 +4,12 @@
     "scheduled": 1666549800000,
     "sides": {
         "home": {
-            "team": {},
+            "team": {
+                "name": "1 Michigan State",
+                "id": "1"
+            },
             "score": {
-                "score": null
+                "score": 7
             },
             "seed": {
                 "rank": 1,
@@ -17,9 +20,12 @@
                     "scheduled": 1666531800000,
                     "sides": {
                         "home": {
-                            "team": {},
+                            "team": {
+                                "name": "1 Michigan State",
+                                "id": "1"
+                            },
                             "score": {
-                                "score": null
+                                "score": 8
                             },
                             "seed": {
                                 "rank": 1,
@@ -35,13 +41,16 @@
                                                 "id": "1"
                                             },
                                             "score": {
-                                                "score": null
+                                                "score": 15
                                             }
                                         },
                                         "visitor": {
-                                            "team": {},
+                                            "team": {
+                                                "name": "8 Indiana",
+                                                "id": "8"
+                                            },
                                             "score": {
-                                                "score": null
+                                                "score": 5
                                             },
                                             "seed": {
                                                 "rank": 1,
@@ -57,7 +66,7 @@
                                                                 "id": "8"
                                                             },
                                                             "score": {
-                                                                "score": null
+                                                                "score": 15
                                                             }
                                                         },
                                                         "visitor": {
@@ -66,7 +75,7 @@
                                                                 "id": "9"
                                                             },
                                                             "score": {
-                                                                "score": null
+                                                                "score": 7
                                                             }
                                                         }
                                                     }
@@ -78,9 +87,12 @@
                             }
                         },
                         "visitor": {
-                            "team": {},
+                            "team": {
+                                "name": "4 Purdue",
+                                "id": "4"
+                            },
                             "score": {
-                                "score": null
+                                "score": 5
                             },
                             "seed": {
                                 "rank": 1,
@@ -96,7 +108,7 @@
                                                 "id": "4"
                                             },
                                             "score": {
-                                                "score": null
+                                                "score": 9
                                             }
                                         },
                                         "visitor": {
@@ -105,7 +117,7 @@
                                                 "id": "5"
                                             },
                                             "score": {
-                                                "score": null
+                                                "score": 8
                                             }
                                         }
                                     }
@@ -117,9 +129,12 @@
             }
         },
         "visitor": {
-            "team": {},
+            "team": {
+                "name": "2 Michigan",
+                "id": "2"
+            },
             "score": {
-                "score": null
+                "score": 8
             },
             "seed": {
                 "rank": 1,
@@ -130,9 +145,12 @@
                     "scheduled": 1666485000000,
                     "sides": {
                         "home": {
-                            "team": {},
+                            "team": {
+                                "name": "2 Michigan",
+                                "id": "2"
+                            },
                             "score": {
-                                "score": null
+                                "score": 8
                             },
                             "seed": {
                                 "rank": 1,
@@ -148,7 +166,7 @@
                                                 "id": "2"
                                             },
                                             "score": {
-                                                "score": null
+                                                "score": 16
                                             }
                                         },
                                         "visitor": {
@@ -157,7 +175,7 @@
                                                 "id": "7"
                                             },
                                             "score": {
-                                                "score": null
+                                                "score": 10
                                             }
                                         }
                                     }
@@ -165,9 +183,12 @@
                             }
                         },
                         "visitor": {
-                            "team": {},
+                            "team": {
+                                "name": "3 Ohio State",
+                                "id": "3"
+                            },
                             "score": {
-                                "score": null
+                                "score": 7
                             },
                             "seed": {
                                 "rank": 1,
@@ -183,7 +204,7 @@
                                                 "id": "3"
                                             },
                                             "score": {
-                                                "score": null
+                                                "score": 10
                                             }
                                         },
                                         "visitor": {
@@ -192,7 +213,7 @@
                                                 "id": "6"
                                             },
                                             "score": {
-                                                "score": null
+                                                "score": 7
                                             }
                                         }
                                     }
