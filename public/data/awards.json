@@ -409,5 +409,25 @@
         "Brendan Chang"
       ]
     }
+  ],
+  "2022": [
+    {
+      "awardName": "Team MVP",
+      "recipients": [
+        "Jeff Brill"
+      ]
+    },
+    {
+      "awardName": "Team Most Improved",
+      "recipients": [
+        "Brenden Saur"
+      ]
+    },
+    {
+      "awardName": "Team Most Dedicated",
+      "recipients": [
+        "Sean Underwood"
+      ]
+    }
   ]
 }

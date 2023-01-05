@@ -29,8 +29,8 @@
             "role": "President",
             "people": [
                 {
-                    "name": "Zachary Burns",
-                    "headshot": "headshotBurns.jpg"
+                    "name": "Sean Underwood",
+                    "headshot": "headshotSean.jpg"
                 }
             ]
         },
@@ -47,8 +47,8 @@
             "role": "Treasurer",
             "people": [
                 {
-                    "name": "Cameron Schulte",
-                    "headshot": "headshotCam.jpg"
+                    "name": "Ilan Farabi",
+                    "headshot": "headshotIlan.jpg"
                 }
             ]
         },
@@ -60,12 +60,12 @@
                     "headshot": "headshotSean.jpg"
                 },
                 {
-                    "name": "Cameron Schulte",
-                    "headshot": "headshotCam.jpg"
+                    "name": "Clifford LeVeque",
+                    "headshot": "headshotCliff.jpg"
                 },
                 {
-                    "name": "Zachary Burns",
-                    "headshot": "headshotBurns.jpg"
+                    "name": "Brenden Saur",
+                    "headshot": "headshotBrenden.jpg"
                 }
             ]
         },
@@ -73,8 +73,8 @@
             "role": "Fundraising Chair",
             "people": [
                 {
-                    "name": "Sean Underwood",
-                    "headshot": "headshotSean.jpg"
+                    "name": "Zach Rose",
+                    "headshot": "headshotRose.jpg"
                 }
             ]
         },
@@ -82,8 +82,8 @@
             "role": "Travel Coordinator",
             "people": [
                 {
-                    "name": "Ilan Farabi",
-                    "headshot": "headshotIlan.jpg"
+                    "name": "Sean Ko",
+                    "headshot": "headshotKo.jpg"
                 }
             ]
         },
@@ -93,15 +93,6 @@
                 {
                     "name": "Adam Gunn",
                     "headshot": "headshotGunn.jpg"
-                }
-            ]
-        },
-        {
-            "role": "Web Team",
-            "people": [
-                {
-                    "name": "Samuel Bechar",
-                    "headshot": "headshotSam.jpg"
                 }
             ]
         },
@@ -118,8 +109,8 @@
             "role": "Alumni Relations Chair",
             "people": [
                 {
-                    "name": "Andrew Golin",
-                    "headshot": "headshotDrew.jpg"
+                    "name": "Gavin Bickner",
+                    "headshot": "headshotGavin.jpg"
                 }
             ]
         },
@@ -127,8 +118,8 @@
             "role": "Community Service Chair",
             "people": [
                 {
-                    "name": "Brenden Saur",
-                    "headshot": "headshotBrenden.jpg"
+                    "name": "Kemal Demirer",
+                    "headshot": "headshotKemal.jpg"
                 }
             ]
         },
@@ -136,16 +127,20 @@
             "role": "Social Chairs",
             "people": [
                 {
-                    "name": "Zach Rose",
-                    "headshot": "headshotRose.jpg"
+                    "name": "Jack Potsos",
+                    "headshot": "headshotJack.jpg"
                 },
                 {
-                    "name": "Luke Jacobson",
-                    "headshot": "headshotLuke.jpg"
+                    "name": "Andrew Hawley",
+                    "headshot": "headshotAndrew.jpg"
                 },
                 {
-                    "name": "Joe Novak",
-                    "headshot": "headshotJoe.jpg"
+                    "name": "Priam Alataris",
+                    "headshot": "headshotPriam.jpg"
+                },
+                {
+                    "name": "David Gonzalez",
+                    "headshot": "headshotMiami.jpg"
                 }
             ]
         }
