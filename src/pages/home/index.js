@@ -112,6 +112,11 @@ export default function Home() {
 						<AlumniNetwork />
 					</Suspense>
 				</ErrorBoundary>
+				<ErrorBoundary FallbackComponent={ErrorFallback} onError={logger}>
+					<div className={styles.imageContainer}>
+						<img className={styles.recSportsLogo} src={`${process.env.PUBLIC_URL}/misc/recSportsLogo.png`} alt="Rec Sports Logo" />
+					</div>
+				</ErrorBoundary>
 			</div>
 
 		</div>
