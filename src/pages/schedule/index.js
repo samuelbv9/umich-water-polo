@@ -141,6 +141,7 @@ const SeasonStats = ({ selectedYear, schedule }) => {
 			for (const tournamentTitle in schedule[selectedYear]) {
 				let tournament = schedule[selectedYear][tournamentTitle]
 				if (tournament.excludeInWinLossTotal) continue;
+				if (tournament.TBD) continue;
 				for (let i = 0; i < tournament.games.length; i++) {
 					if (tournament.games[i].result === "win") {
 						newState.wins += 1

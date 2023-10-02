@@ -1,4 +1,77 @@
 {
+    "2023": {
+        "Big Ten East Regional": {
+            "location": "McCorkle Aquatic Pavilion",
+            "host": "Ohio State University",
+            "dates": "September 23rd - 24th",
+            "directions": "https://www.google.com/maps/place/McCorkle+Aquatic+Pavilion/@39.9982653,-83.0177742,17z/data=!4m6!3m5!1s0x88388e94e45c6a63:0x9e05087252e46be4!8m2!3d39.9982653!4d-83.0177742!16s%2Fg%2F11c1plw3xn",
+            "games": [
+                {
+                    "opponent": "Ohio State",
+                    "time": "2023-09-23T12:30",
+                    "logo": "osu.svg",
+                    "result": "win",
+                    "score": "11-9"
+                },
+                {
+                    "opponent": "Purdue",
+                    "time": "2023-09-23T13:35",
+                    "logo": "purdue.svg",
+                    "result": "tie",
+                    "score": "7-7"
+                },
+                {
+                    "opponent": "Northwestern",
+                    "time": "2023-09-23T17:55",
+                    "logo": "nw.svg",
+                    "result": "win",
+                    "score": "5-0 (forfeit)"
+                },
+                {
+                    "opponent": "Michigan State",
+                    "time": "2023-09-24T14:30",
+                    "logo": "msu.svg",
+                    "result": "win",
+                    "score": "18-17 (2OT)"
+                }
+            ]
+        },
+        "Big Ten Crossover": {
+            "location": "Canham Natatorium",
+            "host": "University of Michigan",
+            "dates": "October 7th - 8th",
+            "directions": "https://www.google.com/maps/dir//Canham+Natatorium,+East+Hoover+Avenue,+Ann+Arbor,+MI/@42.2692971,-83.7789467,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x883cae36eff83e1f:0xc63b105740253336!2m2!1d-83.7438415!2d42.2693025",
+            "games": [
+                {
+                    "opponent": "Illinois",
+                    "time": "2023-10-07T14:10",
+                    "logo": "illinois.svg"
+                },
+                {
+                    "opponent": "Wisconsin",
+                    "time": "2023-10-07T17:40",
+                    "logo": "wisco.svg"
+                },
+                {
+                    "opponent": "Iowa",
+                    "time": "2023-10-08T09:30",
+                    "logo": "iowa.svg"
+                },
+                {
+                    "opponent": "Indiana",
+                    "time": "2023-10-08T16:30",
+                    "logo": "iu.svg"
+                }
+            ]
+        },
+        "Big Ten Championship": {
+            "location": "Boilermaker Aquatic Center",
+            "host": "Purdue University",
+            "dates": "October 28th - 29th",
+            "directions": "https://www.google.com/maps/dir//Boilermaker+Aquatic+Center,+West+Lafayette,+IN+47906/@40.1156692,-86.5259894,6z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8812e2ca65af0be3:0x59a1e83ca2dc7e6c!2m2!1d-86.923272!2d40.4281346",
+            "TBD": true
+        }
+    },
     "2022": {
         "Big Ten Crossover": {
             "location": "Councilman Aquatic Center",

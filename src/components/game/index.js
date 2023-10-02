@@ -2,29 +2,19 @@ import Image from "../image";
 import Divider from "@material-ui/core/Divider"
 import styles from "./game.module.css";
 
-const days = [
-	"Sun",
-	"Mon",
-	"Tue",
-	"Wed",
-	"Thu",
-	"Fri",
-	"Sat"
-]
-
 export default function Game({ isOddIndex, opponent, score, result, viewingLink, logo, time: gameTime, bTeam, aTeam }) {
+	const time = new Date(gameTime);
 
-	const addZero = (s) => s.length === 1 ? "0" + s : s
-
-	const time = new Date(gameTime)
-	const dayN = addZero(time.getDate().toString())
-
-	const month = addZero((time.getMonth() + 1).toString())
-
-	const dayL = days[time.getDay()]
-
-	const hour = addZero(time.getHours().toString())
-	const min = addZero(time.getMinutes().toString())
+	const options = {
+		day: "numeric",
+		month: "numeric",
+		hour: "numeric",
+		minute: "numeric",
+		weekday: "short",
+		timeZone: "America/Detroit",
+		timeZoneName: "shortGeneric"
+	}
+	const dateString = time.toLocaleDateString("en-us", options);
 
 	return (
 		<div className={`${styles.gameContainer} ${isOddIndex ? styles.odd : ""}`}>
@@ -37,7 +27,7 @@ export default function Game({ isOddIndex, opponent, score, result, viewingLink,
 					src={`${process.env.PUBLIC_URL}/schools/${logo}`}
 				/>
 				<div className={styles.gameInfoText}>
-					<div>{month}.{dayN} ({dayL}) / {hour}:{min} ET</div>
+					<div>{dateString}</div>
 					{bTeam ? <div><b>{"B TEAM vs. " + opponent.toUpperCase()}</b></div>
 						: aTeam ? <div><b>{"A TEAM vs. " + opponent.toUpperCase()}</b></div>
 						: <div><b>{"vs. " + opponent.toUpperCase()}</b></div>}
