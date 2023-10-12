@@ -45,22 +45,30 @@
                 {
                     "opponent": "Illinois",
                     "time": "2023-10-07T14:10",
-                    "logo": "illinois.svg"
+                    "logo": "illinois.svg",
+                    "result": "win",
+                    "score": "18-10"
                 },
                 {
                     "opponent": "Wisconsin",
                     "time": "2023-10-07T17:40",
-                    "logo": "wisco.svg"
+                    "logo": "wisco.svg",
+                    "result": "win",
+                    "score": "19-7"
                 },
                 {
                     "opponent": "Iowa",
                     "time": "2023-10-08T09:30",
-                    "logo": "iowa.svg"
+                    "logo": "iowa.svg",
+                    "result": "win",
+                    "score": "16-11"
                 },
                 {
                     "opponent": "Indiana",
                     "time": "2023-10-08T16:30",
-                    "logo": "iu.svg"
+                    "logo": "iu.svg",
+                    "result": "win",
+                    "score": "9-3"
                 }
             ]
         },
