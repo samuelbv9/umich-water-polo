@@ -1,4 +1,218 @@
 {
+    "2023": {
+        "photo": "team2023.jpg",
+        "people": [
+            {
+                "name": "Max Angel",
+                "bio": "FR"
+            },
+            {
+                "name": "Daniel Bellatin",
+                "bio": "FR"
+            },
+            {
+                "name": "Julian Carrier",
+                "bio": "FR"
+            },
+            {
+                "name": "Ben Edlund",
+                "bio": "FR"
+            },
+            {
+                "name": "Peter Fazekas",
+                "bio": "FR"
+            },
+            {
+                "name": "Travis Fitch",
+                "bio": "FR"
+            },
+            {
+                "name": "Young Jun",
+                "bio": "FR"
+            },
+            {
+                "name": "Hyeonyeop (William) Kim",
+                "bio": "FR"
+            },
+            {
+                "name": "Aurelien Laffont",
+                "bio": "FR"
+            },
+            {
+                "name": "Benjamin Levy",
+                "bio": "FR"
+            },
+            {
+                "name": "Kevin Li",
+                "bio": "FR"
+            },
+            {
+                "name": "Lucas Li",
+                "bio": "FR"
+            },
+            {
+                "name": "Chase Richardson",
+                "bio": "FR"
+            },
+            {
+                "name": "Zach Rossen",
+                "bio": "FR"
+            },
+            {
+                "name": "Alexander Schenck",
+                "bio": "FR"
+            },
+            {
+                "name": "Jack Staunton",
+                "bio": "FR"
+            },
+            {
+                "name": "Nick Walvoord",
+                "bio": "FR"
+            },
+            {
+                "name": "Priam Alataris",
+                "bio": "SO, Electrical Engineering",
+                "hometown": "Menlo Park, CA"
+            },
+            {
+                "name": "Adam Bergen",
+                "bio": "SO, Biology",
+                "hometown": "Dexter, MI"
+            },
+            {
+                "name": "Gavin Bickner",
+                "bio": "SO, Sport Management",
+                "hometown": "Aurora, IL"
+            },
+            {
+                "name": "Dante Garetto",
+                "bio": "SO"
+            },
+            {
+                "name": "David Gonzalez",
+                "bio": "SO, Art History",
+                "hometown": "Miami, FL"
+            },
+            {
+                "name": "Andrew Hawley",
+                "bio": "SO, Economics",
+                "hometown": "Wixom, MI"
+            },
+            {
+                "name": "Chase Layman",
+                "bio": "SO"
+            },
+            {
+                "name": "Jackson Philipp",
+                "bio": "SO"
+            },
+            {
+                "name": "Jack Potsos",
+                "bio": "SO, Business",
+                "hometown": "Dexter, MI"
+            },
+            {
+                "name": "Sam Bechar",
+                "bio": "JR, Computer Science",
+                "hometown": "Ann Arbor, MI"
+            },
+            {
+                "name": "Kemal Demirer",
+                "bio": "JR, Molecular, Cellular, and Developmental Biology",
+                "hometown": "Ankara, Turkey"
+            },
+            {
+                "name": "Chris Gora",
+                "bio": "JR, Business",
+                "hometown": "Chicago, IL"
+            },
+            {
+                "name": "Luke Jacobson",
+                "bio": "JR, Undecided",
+                "hometown": "Brooklyn, NY"
+            },
+            {
+                "name": "Sean Ko",
+                "bio": "JR, Mathematics",
+                "hometown": "Chicago, IL"
+            },
+            {
+                "name": "Joe Novak",
+                "bio": "JR, Computer Science",
+                "hometown": "Bloomfield Hills, MI"
+            },
+            {
+                "isCaptian": true,
+                "name": "Brenden Saur",
+                "bio": "JR, Computer Science",
+                "hometown": "Rockford, MI"
+            },
+            {
+                "name": "Lute Smith",
+                "bio": "JR, Environmental Engineering",
+                "hometown": "Ypsilanti, MI"
+            },
+            {
+                "name": "Ilan Farabi",
+                "bio": "SR, Economics",
+                "hometown": "Commerce, MI"
+            },
+            {
+                "name": "Adam Gunn",
+                "bio": "SR, Computer Science",
+                "hometown": "Chicago, IL"
+            },
+            {
+                "isCaptian": true,
+                "name": "Cliff LeVeque",
+                "bio": "SR, Mechanical Engineering",
+                "hometown": "Holt, MI"
+            },
+            {
+                "name": "Will McKinley",
+                "bio": "SR, Nursing",
+                "hometown": "Fremont, CA"
+            },
+            {
+                "name": "Zach Rose",
+                "bio": "SR, Biochemistry",
+                "hometown": "Lake Forest, IL"
+            },
+            {
+                "isCaptian": true,
+                "name": "Sean Underwood",
+                "bio": "SR, Statistics",
+                "hometown": "Ann Arbor, MI"
+            },
+            {
+                "name": "Jeff Brill",
+                "bio": "GS, Computer Science",
+                "hometown": "Okemos, MI"
+            },
+            {
+                "name": "Dan Clyde",
+                "bio": "GS"
+            },
+            {
+                "name": "Alex Janosi",
+                "bio": "GS"
+            },
+            {
+                "name": "Garrett Kaufmann",
+                "bio": "GS, Applied Data Science",
+                "hometown": "Mount Kisco, NY"
+            },
+            {
+                "name": "Michal Rajski",
+                "bio": "GS"
+            },
+            {
+                "name": "Jack Wischmeyer",
+                "bio": "GS"
+            }
+        ]
+    },
     "2022": {
         "photo": "team2022.jpg",
         "people": [
