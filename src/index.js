@@ -21,7 +21,6 @@ const Schedule = lazy(() => retry(() => import('./pages/schedule')));
 const Roster = lazy(() => retry(() => import('./pages/roster')));
 const Fundraising = lazy(() => retry(() => import('./pages/fundraising')));
 const Error404 = lazy(() => retry(() => import('./pages/error404')));
-const TourneyBracket = lazy(() => retry(() => import('./pages/bracket')))
 
 const theme = createTheme({
     palette: {
@@ -63,7 +62,6 @@ ReactDOM.render(
                                         <Route exact path="/news" component={News} />
                                         <Route exact path="/schedule" component={Schedule} />
                                         <Route exact path="/contact" component={Contact} />
-                                        <Route exact path="/bracket" component={TourneyBracket} />
                                         <Route path="/" component={Error404} />
                                     </Switch>
                                 </div>

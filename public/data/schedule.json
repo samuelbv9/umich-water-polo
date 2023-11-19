@@ -77,7 +77,29 @@
             "host": "Purdue University",
             "dates": "October 28th - 29th",
             "directions": "https://www.google.com/maps/dir//Boilermaker+Aquatic+Center,+West+Lafayette,+IN+47906/@40.1156692,-86.5259894,6z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8812e2ca65af0be3:0x59a1e83ca2dc7e6c!2m2!1d-86.923272!2d40.4281346",
-            "TBD": true
+            "games": [
+                {
+                    "opponent": "Illinois",
+                    "time": "2023-10-28T11:30",
+                    "logo": "illinois.svg",
+                    "result": "win",
+                    "score": "10-5"
+                },
+                {
+                    "opponent": "Purdue",
+                    "time": "2023-10-28T17:20",
+                    "logo": "purdue.svg",
+                    "result": "win",
+                    "score": "10-7"
+                },
+                {
+                    "opponent": "Michigan State",
+                    "time": "2023-10-29T12:30",
+                    "logo": "msu.svg",
+                    "result": "loss",
+                    "score": "6-8"
+                }
+            ]
         }
     },
     "2022": {
@@ -151,7 +173,6 @@
             "host": "University of Michigan",
             "dates": "October 22nd - 23rd",
             "directions": "https://www.google.com/maps/dir//Canham+Natatorium,+East+Hoover+Avenue,+Ann+Arbor,+MI/@42.2692971,-83.7789467,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x883cae36eff83e1f:0xc63b105740253336!2m2!1d-83.7438415!2d42.2693025",
-            "bracketLink": true,
             "games": [
                 {
                     "opponent": "Illinois",
