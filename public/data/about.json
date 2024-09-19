@@ -5,8 +5,8 @@
             "role": "Head Coach",
             "people": [
                 {
-                    "name": "Ivo Dinov",
-                    "headshot":"headshotIvo.jpg"
+                    "name": "Adam Schnepf",
+                    "headshot":"headshotAdam.jpg"
                 }
             ]
         },
@@ -14,12 +14,12 @@
             "role": "Assistant Coaches",
             "people": [
                 {
-                    "name": "Vladimir Tolchinsky",
-                    "headshot":"headshotVlad.jpg"
+                    "name": "Ivo Dinov",
+                    "headshot":"headshotIvo.jpg"
                 },
                 {
-                    "name": "Adam Schnepf",
-                    "headshot": "headshotAdam.jpg"
+                    "name": "Zachary Burns",
+                    "headshot": "headshotBurns.jpg"
                 }
             ]
         }
@@ -29,8 +29,8 @@
             "role": "President",
             "people": [
                 {
-                    "name": "Sean Underwood",
-                    "headshot": "headshotSean.jpg"
+                    "name": "Brenden Saur",
+                    "headshot": "headshotBrenden.jpg"
                 }
             ]
         },
@@ -38,48 +38,13 @@
             "role": "Vice President",
             "people": [
                 {
-                    "name": "Clifford LeVeque",
-                    "headshot": "headshotCliff.jpg"
+                    "name": "Jack Potsos",
+                    "headshot": "headshotPotsos.jpg"
                 }
             ]
         },
         {
             "role": "Treasurer",
-            "people": [
-                {
-                    "name": "Ilan Farabi",
-                    "headshot": "headshotIlan.jpg"
-                }
-            ]
-        },
-        {
-            "role": "Captains",
-            "people": [
-                {
-                    "name": "Sean Underwood",
-                    "headshot": "headshotSean.jpg"
-                },
-                {
-                    "name": "Clifford LeVeque",
-                    "headshot": "headshotCliff.jpg"
-                },
-                {
-                    "name": "Brenden Saur",
-                    "headshot": "headshotBrenden.jpg"
-                }
-            ]
-        },
-        {
-            "role": "Fundraising Chair",
-            "people": [
-                {
-                    "name": "Zach Rose",
-                    "headshot": "headshotRose.jpg"
-                }
-            ]
-        },
-        {
-            "role": "Travel Coordinator",
             "people": [
                 {
                     "name": "Sean Ko",
@@ -88,11 +53,46 @@
             ]
         },
         {
+            "role": "Captains",
+            "people": [
+                {
+                  "name": "Brenden Saur",
+                  "headshot": "headshotBrenden.jpg"
+                },
+                {
+                    "name": "Sean Ko",
+                    "headshot": "headshotKo.jpg"
+                },
+                {
+                    "name": "Garrett Kaufmann",
+                    "headshot": "headshotGarrett.jpg"
+                }
+            ]
+        },
+        {
+            "role": "Fundraising Chair",
+            "people": [
+                {
+                    "name": "David Gonzalez",
+                    "headshot": "headshotMiami.jpg"
+                }
+            ]
+        },
+        {
+            "role": "Travel Coordinator",
+            "people": [
+                {
+                    "name": "Priam Alataris",
+                    "headshot": "headshotPriam.jpg"
+                }
+            ]
+        },
+        {
             "role": "Webmaster",
             "people": [
                 {
-                    "name": "Adam Gunn",
-                    "headshot": "headshotGunn.jpg"
+                    "name": "Samuel Bechar",
+                    "headshot": "headshotSam.jpg"
                 }
             ]
         },
@@ -100,8 +100,8 @@
             "role": "Social Media Chair",
             "people": [
                 {
-                    "name": "Joe Novak",
-                    "headshot": "headshotJoe.jpg"
+                    "name": "Adam Bergen",
+                    "headshot": "headshotBergen.jpg"
                 }
             ]
         },
@@ -118,8 +118,8 @@
             "role": "Community Service Chair",
             "people": [
                 {
-                    "name": "Kemal Demirer",
-                    "headshot": "headshotKemal.jpg"
+                    "name": "Andrew Hawley",
+                    "headshot": "headshotAndrew.jpg"
                 }
             ]
         },
@@ -127,20 +127,20 @@
             "role": "Social Chairs",
             "people": [
                 {
-                    "name": "Jack Potsos",
-                    "headshot": "headshotJack.jpg"
+                    "name": "Max Angel",
+                    "headshot": "headshotMax.jpg"
                 },
                 {
-                    "name": "Andrew Hawley",
-                    "headshot": "headshotAndrew.jpg"
+                    "name": "Zach Rossen",
+                    "headshot": "nopicture.svg"
                 },
                 {
-                    "name": "Priam Alataris",
-                    "headshot": "headshotPriam.jpg"
+                    "name": "Travis Fitch",
+                    "headshot": "headshotTravis.jpg"
                 },
                 {
-                    "name": "David Gonzalez",
-                    "headshot": "headshotMiami.jpg"
+                    "name": "Daniel Bellatin",
+                    "headshot": "headshotDaniel.jpg"
                 }
             ]
         }
