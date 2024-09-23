@@ -17,6 +17,6 @@ A simple change is anything that has to do with the content on the pages. To cha
 ## Deployment
 To deploy the site, use the `npm run build` command to bundle the site. Then, upload the entire contents of the build folder to the private UMpolo sub-directory. This can be done through SFTP using open source software CyberDuck on the Michigan network or VPN. Open a connection to `sftp.web.itd.umich.edu` and use your umich login credentials. Once the connection is established navigate to `/afs/umich.edu/group/soas/umpolo/Private/html/` and overwrite those files with the content in the generated build folder. After this the new website should be live.
 
-** If you get permission denied when trying to overwrite you will need to be added as an owner to the umpolo group in mcommunity. Then follow the instructions on this website: `https://teamdynamix.umich.edu/TDClient/30/Portal/KB/ArticleDet?ID=7243`. Specifically, the "controlling permission and access" section where you do pts adduser
+** If you get permission denied when trying to overwrite you will need to be added as an owner to the umpolo group in mcommunity. Then follow the instructions on this website: https://teamdynamix.umich.edu/TDClient/30/Portal/KB/ArticleDet?ID=7243. Specifically, the "controlling permission and access" section where you do pts adduser
 
 Happy Coding!
