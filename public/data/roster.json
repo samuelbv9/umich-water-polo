@@ -45,6 +45,12 @@
               "headshot": "teamMatthew2024.jpg"
           },
           {
+              "name": "Rayan Rahmani",
+              "bio": "FR, Economics",
+              "hometown": "Skokie, IL",
+              "headshot": "teamRayan2024.jpg"
+          },
+          {
               "name": "Ignacio Rivero",
               "bio": "FR, Industrial Engineering",
               "hometown": "Miami, FL",
@@ -100,7 +106,7 @@
           },
           {
               "name": "Travis Fitch",
-              "bio": "SO, Gender Studies",
+              "bio": "SO, Economics",
               "hometown": "Dexter, MI",
               "headshot": "teamTravis2024.jpg"
           },
@@ -271,7 +277,7 @@
           },
           {
               "name": "Jack Wischmeyer",
-              "bio": "GS, Art History",
+              "bio": "GS, Robotics",
               "hometown": "Flint, MI",
               "headshot": "teamWisch2024.jpg"
           }

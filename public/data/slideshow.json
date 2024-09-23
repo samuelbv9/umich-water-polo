@@ -1,20 +1,20 @@
 {
     "landscape": [
-        "teamCheer.jpg",
-        "burns.jpg",
-        "cliff.jpg",
-        "sean.jpg",
-        "jin.jpg",
-        "luke.jpg",
-        "bigTens.jpg"
+        "team.jpg",
+        "edlund.jpg",
+        "brenden.jpg",
+        "ko.jpg",
+        "rossen.jpg",
+        "garrett.jpg",
+        "gora.jpg"
     ],
     "portrait": [
-        "roseMobile.jpg",
-        "teamMobile.jpg",
-        "brendenMobile.jpg",
-        "burnsDefenseMobile.jpg",
-        "crowdMobile.jpg",
-        "drewMobile.jpg",
+        "edlundMobile.jpg",
+        "bergenMobile.jpg",
+        "brillMobile.jpg",
+        "janosiMobile.jpg",
+        "potsosMobile.jpg",
+        "rossenMobile.jpg",
         "ballMobile.jpg"
     ]
 }
