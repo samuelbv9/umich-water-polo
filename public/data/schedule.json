@@ -42,7 +42,34 @@
           "dates": "October 12th - 13th",
           "directions": "https://www.google.com/maps/dir//Canham+Natatorium,+East+Hoover+Avenue,+Ann+Arbor,+MI/@42.2692971,-83.7789467,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x883cae36eff83e1f:0xc63b105740253336!2m2!1d-83.7438415!2d42.2693025",
           "games": [
-
+            {
+                "opponent": "MSU",
+                "time": "2024-10-12T15:00",
+                "logo": "msu.svg",
+                "result": "",
+                "score": ""
+            },
+            {
+                "opponent": "OSU",
+                "time": "2024-10-12T19:50",
+                "logo": "osu.svg",
+                "result": "",
+                "score": ""
+            },
+            {
+                "opponent": "Purdue",
+                "time": "2024-10-13T12:20",
+                "logo": "purdue.svg",
+                "result": "",
+                "score": ""
+            },
+            {
+                "opponent": "MSU",
+                "time": "2024-10-13T17:10",
+                "logo": "msu.svg",
+                "result": "",
+                "score": ""
+            }
           ]
       },
       "Big Ten Championship": {
