@@ -44,31 +44,24 @@
           "games": [
             {
                 "opponent": "MSU",
-                "time": "2024-10-12T15:00",
+                "time": "2024-10-12T14:00",
                 "logo": "msu.svg",
-                "result": "",
-                "score": ""
+                "result": "loss",
+                "score": "9-10 (OT)"
             },
             {
                 "opponent": "OSU",
                 "time": "2024-10-12T19:50",
                 "logo": "osu.svg",
-                "result": "",
-                "score": ""
+                "result": "win",
+                "score": "14-7"
             },
             {
                 "opponent": "Purdue",
-                "time": "2024-10-13T12:20",
+                "time": "2024-10-13T12:30",
                 "logo": "purdue.svg",
-                "result": "",
-                "score": ""
-            },
-            {
-                "opponent": "MSU",
-                "time": "2024-10-13T17:10",
-                "logo": "msu.svg",
-                "result": "",
-                "score": ""
+                "result": "win",
+                "score": "10-7"
             }
           ]
       },
@@ -78,6 +71,13 @@
           "dates": "October 26th - 27th",
           "directions": "https://www.google.com/maps/dir//200+Chestnut+Rd,+East+Lansing,+MI+48824/@42.729561,-84.4904048,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8822c278f897b8b3:0xf323b449bdc8c0cb!2m2!1d-84.4883019!2d42.7290862",
           "games": [
+            {
+                "opponent": "Illinois",
+                "time": "2024-10-26T14:50",
+                "logo": "illinois.svg",
+                "result": "",
+                "score": ""
+            }
           ]
       }
   },
