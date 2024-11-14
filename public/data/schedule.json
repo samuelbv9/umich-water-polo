@@ -101,11 +101,25 @@
           "directions": "https://www.google.com/maps/dir//250+Gale+Lemerand+Dr,+Gainesville,+FL+32611/@29.6494912,-82.3923678,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x88e8a15428275427:0xcdc7ad98656bfefd!2m2!1d-82.3511682!2d29.649423?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D",
           "games": [
               {
-                  "opponent": "Texas Divison Winner",
+                  "opponent": "Texas A&M",
                   "time": "2024-11-08T12:30",
-                  "logo": "texas.svg",
-                  "result": "",
-                  "score": ""
+                  "logo": "texasa&m.svg",
+                  "result": "loss",
+                  "score": "9-11"
+              },
+              {
+                  "opponent": "Georgia Institute of Technology",
+                  "time": "2024-11-08T18:20",
+                  "logo": "g_tech.svg",
+                  "result": "win",
+                  "score": "15-13"
+              },
+              {
+                  "opponent": "University of Colorado",
+                  "time": "2024-11-09T13:40",
+                  "logo": "colorado.svg",
+                  "result": "loss",
+                  "score": "6-15"
               }
           ]
       }
